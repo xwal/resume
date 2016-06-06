@@ -119,7 +119,7 @@ module.exports = function (grunt) {
                     pretty: true
                 },
                 files: {
-                    '<%= yeoman.app %>/cn.html': ['<%= yeoman.app %>/index.jade']
+                    '<%= yeoman.app %>/index.html': ['<%= yeoman.app %>/index.jade']
                 }
             },
             en: {
@@ -130,7 +130,7 @@ module.exports = function (grunt) {
                     pretty: true
                 },
                 files: {
-                    '<%= yeoman.app %>/index.html': ['<%= yeoman.app %>/index.jade']
+                    '<%= yeoman.app %>/en.html': ['<%= yeoman.app %>/index.jade']
                 }
             }
         },

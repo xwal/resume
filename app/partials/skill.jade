@@ -44,12 +44,3 @@ section#skill
               .skill-body
                 each val in skill.tooling.children
                   span.label.label-default= val
-            .lang-skills
-              .cat-title
-                i.fa.fa-microphone
-                span= skill.language.text
-              .skill-body
-                ul
-                  each item in skill.language.children
-                    li
-                      span #{item.name}: #{item.text}
