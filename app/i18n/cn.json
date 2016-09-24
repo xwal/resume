@@ -92,18 +92,18 @@
       {
         "name": "北京千锋互联科技有限公司成都分公司",
         "position": "iOS 讲师",
-        "year": "2015.7至今",
+        "year": "2015.8至今",
         "description": [
-          "iOS 培训",
-          "研究 iOS 新技术"
+          "iOS 培训"
         ]
       },
       {
         "name": "成都市亿合科技有限公司",
         "position": "软件工程师（Qt/C++ & iOS 方向）",
-        "year": "2014.4-2015.7",
+        "year": "2014.4-2015.8",
         "description": [
           "Qt 桌面应用开发",
+          "基于XULRunner二次开发，重写ERP桌面应用开发",
           "iOS 程序开发"
         ]
       },
@@ -178,160 +178,142 @@
   "project": {
     "col1": [
       {
-        "icon": "fa-github",
-        "name": "angular1-webpack-starter",
-        "year": "2015.8至今",
-        "library": ["angular", "ES6", "webpack", "ui-router"],
+        "icon": "fa-apple",
+        "name": "农厨商城",
+        "year": "2015.5-2015.7",
+        "library": ["AFNetworking", "SDWebImage", "MBProgressHUD", "Reachability", "CSNotificationView", "IQKeyboardManager", "Masonry"],
         "description": [
-          "全组件式(directive)开发",
-          "100%单元测试覆盖",
-          "跨浏览器E2E测试(Sauce Labs)",
-          "模块按需加载(LazyLoad)",
-          "TravisCI自动化测试部署"
+          "为餐饮企业提供新鲜蔬菜的网络商城",
+          "WebService数据处理",
+          "模块划分",
+          "自定义视图模块，定制复杂界面",
+          "Objective-C与JavaScript交互"
         ],
-        "github": {
-          "author": "PinkyJie",
-          "repo": "angular1-webpack-starter"
-        },
         "links": [
           {
-            "title": "Demo",
+            "title": "App Store下载",
             "icon": "fa-globe",
-            "url": "http://pinkyjie.com/angular1-webpack-starter/#/"
+            "url": "https://itunes.apple.com/cn/app/nong-chu-shang-cheng/id1009189107?mt=8"
           }
         ]
       },
       {
-        "icon": "fa-credit-card",
-        "name": "GoBank/GreenDot",
-        "year": "2014.5至今",
-        "library": ["angular", "stylus", "jade"],
+        "icon": "fa-apple",
+        "name": "亿合云商",
+        "year": "2015.01-2015.04",
+        "library": ["AFNetworking", "FMDB", "GTMBase64", "MBProgressHUD", "MJRefresh"],
         "description": [
-          "组件化的推广",
-          "代码风格推广",
-          "从ngRoute到ui-router的迁移",
-          "angular 1.2到1.5的升级",
-          "grunt构建流程优化(20min -> 2min)",
-          "自动化一键发布工具构建"
+          "完整电商功能 App",
+          "WebService 数据处理",
+          "采用CocoaPods管理第三方库",
+          "业务逻辑优化",
+          "分发测试"
         ],
         "links": [
           {
-            "title": "GoBank Site",
+            "title": "App Store下载",
             "icon": "fa-globe",
-            "url": "https://m.gobank.com"
-          },
+            "url": "https://itunes.apple.com/cn/app/yi-he-yun-shang/id982161173?ls=1&mt=8"
+          }
+        ]
+      },
+      {
+        "icon": "fa-apple",
+        "name": "品界",
+        "year": "2014.08-2015.03",
+        "library": ["AFNetworking", "FMDB", "GTMBase64", "MBProgressHUD", "MJRefresh"],
+        "description": [
+          "女装批发商城 App",
+          "WebService 数据处理",
+          "采用CocoaPods管理第三方库",
+          "业务逻辑优化",
+          "分发测试"
+        ],
+        "links": [
           {
-            "title": "GreenDot Site",
+            "title": "App Store下载",
             "icon": "fa-globe",
-            "url": "https://m.greendot.com"
+            "url": "https://itunes.apple.com/cn/app/pin-jie/id964438759?mt=8"
           }
         ]
       }
     ],
     "col2": [
+        {
+          "icon": "fa-windows",
+          "name": "网络爬虫",
+          "year": "2014.12-2015.01",
+          "library": ["Qt", "QtWebKit", "QODBC"],
+          "description": [
+            "抓取赶集网全国小区数据，总共抓了50多万条",
+            "利用QWebPage解析HTML数据",
+            "QODBC连接MS Sql Server存储数据"
+          ]
+        },
+        {
+          "icon": "fa-windows",
+          "name": "房产中介管理系统客户端",
+          "year": "2014.04-2014.11",
+          "library": ["XULRunner", "XUL"],
+          "description": [
+            "基于XULRunner进行二次开发",
+            "采用XUL开发界面，使用JavaScript和xpcom实现业务逻辑",
+            "网络广播控制客户端数量"
+          ]
+      },
       {
-        "icon": "fa-cloud",
-        "name": "Cloud Resilience System",
-        "year": "2013.1-2013.12",
-        "library": ["SVG", "web.py", "MongoDB", "AWS"],
+        "icon": "fa-windows",
+        "name": "337游戏客户端",
+        "year": "2013.11-2014.02",
+        "library": ["Qt", "CEF"],
         "description": [
-          "给云设施制造模拟灾难",
-          "利用SVG实现数据可视化"
+          "利用 Qt 和 CEF 集成实现游戏盒子",
+          "利用CEF加载网页游戏，优化网页加载速度（100ms -> 50ms）"
         ]
       },
       {
-        "icon": "fa-sitemap",
-        "name": "亲的试衣间",
-        "year": "2011.6-2012.3",
-        "library": ["PHP", "Flash", "AR"],
+        "icon": "fa-windows",
+        "name": "网络音视频通话客户端",
+        "year": "2012.06-2014.06",
+        "library": ["Qt", "Linphone"],
         "description": [
-          "利用AR在淘宝实现虚拟试衣",
-          "2012年“赢在淘宝”大赛TOP 10"
-        ],
-        "links": [
-          {
-            "title": "Video Demo",
-            "icon": "fa-video-camera",
-            "url": "http://v.youku.com/v_show/id_XNjU2NjEyMjYw.html"
-          }
-        ]
-      },
-      {
-        "icon": "fa-magic",
-        "name": "互动许愿树",
-        "year": "2012.6-2012.7",
-        "library": ["Node", "SVG", "socket.io"],
-        "description": [
-          "SVG实现的许愿树动画",
-          "可与iPad互动随时生成新树叶卡片",
-          "可与iPad互动进行卡片抽奖"
-        ],
-        "links": [
-          {
-            "title": "Video Demo",
-            "icon": "fa-video-camera",
-            "url": "http://v.youku.com/v_show/id_XNDIzNTM4MTg0.html"
-          },
-          {
-            "title": "Video Demo",
-            "icon": "fa-video-camera",
-            "url": "http://v.youku.com/v_show/id_XNDIzMTM3Njky.html"
-          },
-          {
-            "title": "Video Demo",
-            "icon": "fa-video-camera",
-            "url": "http://v.youku.com/v_show/id_XNDIzMTIzNDQ4.html"
-          }
+          "大学期间实验室项目",
+          "基于 Qt 实现界面",
+          "基于 Linphone 实现网络音视频电话"
         ]
       }
     ],
     "others": {
       "text": "其他个人项目",
-      "year": "2011.1至今",
+      "year": "2012.1至今",
       "repos": [
         {
-          "author": "PinkyJie",
-          "repo": "generator-aio-angular"
-        },
-        {
-          "author": "PinkyJie",
-          "repo": "Trister"
-        },
-        {
-          "author": "PinkyJie",
-          "repo": "Twitter2Sina"
-        },
-        {
-          "author": "PinkyJie",
-          "repo": "LiangziDown"
-        },
-        {
-          "author": "PinkyJie",
-          "repo": "resume"
+          "author": "chaoskyme",
+          "repo": "Demo"
         }
       ]
     }
   },
   "life": {
     "location": {
-      "lat": 31.259068,
-      "lng": 121.456105
+      "lat": 30.68,
+      "lng": 104.04
     },
     "photos": [
       {
-        "src": "skating.jpg",
-        "alt": "Skating",
-        "text": "轮滑刷街"
+        "src": "breakfast.jpg",
+        "alt": "Breakfast",
+        "text": "爱心早餐"
       },
       {
-        "src": "archery.jpg",
-        "alt": "Archery",
-        "text": "射箭"
+        "src": "bipenggou.jpg",
+        "alt": "旅游",
+        "text": "毕棚沟"
       },
       {
-        "src": "sea.jpg",
-        "alt": "Sea",
-        "text": "毛里求斯的旅行"
+        "src": "gold.jpg",
+        "alt": "太阳神",
+        "text": "金沙遗址博物馆"
       }
     ]
   },
@@ -350,7 +332,7 @@
     },
     "online": {
       "text": "在线版: ",
-      "url": "http://pinkyjie.com/resume/cn.html"
+      "url": "http://chaosky.coding.me/resume/"
     },
     "github": {
       "text": "更多项目请查看我的Github: "
