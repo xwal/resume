@@ -1,7 +1,7 @@
 {
   "html": {
-    "title": "Wenbo Jie's Resume",
-    "description": "resume front-end Angular"
+    "title": "Tianxiang Lin's Resume",
+    "description": "resume iOS Objective-C Swift"
   },
   "sections": {
     "header": "HOME",
@@ -13,101 +13,75 @@
     "life": "LIFE"
   },
   "badge": {
-    "githubLink": "https://github.com/PinkyJie/resume",
+    "githubLink": "https://github.com/chaoskyme",
     "languageImageAlt": "切换到中文版",
     "languageText": "中文版",
-    "languageLink": "./cn.html",
+    "languageLink": "./index.html",
     "downloadPDFImageAlt": "Download as PDF",
     "downloadPDFText": "Download",
-    "pdfLink": "WenboJie-frontend-resume.pdf",
-    "pdfName": "WenboJie-frontend-resume"
+    "pdfLink": "TianxiangLin-iOS-resume.pdf",
+    "pdfName": "TianxiangLin-iOS-resume"
   },
   "header": {
-    "name": "Wenbo Jie",
-    "title": "Front-end Developer",
+    "name": "Tianxiang Lin",
+    "title": "iOS Developer",
     "languageIcon": "cn.png"
   },
   "about": {
     "socials": {
       "blog": {
         "linkTitle": "Blog",
-        "url": "http://pinkyjie.com",
+        "url": "http://chaosky.me",
         "icon": "fa-rss"
       },
       "github": {
-        "linkTitle": "Github",
-        "url": "https://github.com/PinkyJie",
+        "linkTitle": "GitHub",
+        "url": "https://github.com/chaoskyme",
         "icon": "fa-github"
-      },
-      "twitter": {
-        "linkTitle": "Twitter",
-        "url": "https://twitter.com/PinkyJie",
-        "icon": "fa-twitter"
       },
       "weibo": {
         "linkTitle": "Weibo",
-        "url": "http://weibo.com/pinkyway",
+        "url": "http://weibo.com/1916538113",
         "icon": "fa-weibo"
       },
-      "stackoverflow": {
-        "linkTitle": "StackOverflow",
-        "url": "https://stackoverflow.com/users/689948/pinkyjie",
-        "icon": "fa-stack-overflow"
+      "qq": {
+        "linkTitle": "QQ",
+        "url": "http://wpa.qq.com/msgrd?v=3&uin=352135591&site=qq&menu=yes",
+        "icon": "fa-qq"
+      },
+      "v2ex": {
+        "linkTitle": "V2EX",
+        "url": "https://www.v2ex.com/member/error",
+        "icon": "fa-rocket"
       }
     },
     "introduction": [
-      "Math (Bachelor) + Computer Science (Master)",
-      "Almost 5 years of Internet industry experience",
-      "More than 3 years of pure front-end experience",
-      "2 years of Angular experience"
+      "Software Engineering (Bachelor)",
+      "Almost 3 years of Internet industry experience",
+      "More than 2 years of pure iOS experience",
+      "3 years of C++ experience (use Qt/C++ in University)"
     ],
-    "location": "Shanghai, China",
-    "phone": "(+86) 15216761725",
-    "email": "pinkyjie.gn@gmail.com",
-    "age": "1987",
+    "location": "Chengdu, China",
+    "phone": "(+86) 18981988677",
+    "email": "chaosky.me@gmail.com",
+    "age": "1991",
     "sex": "Male"
   },
   "education": {
     "universities": [
       {
-        "name": "East China Univ. of Sci. & Tech.",
-        "location": "Shanghai, China",
-        "year": "2009.9-2012.3",
-        "major": "Applied Computer [Pattern Recognition]",
-        "items": [
-          {
-            "icon": "fa-file-text",
-            "textBefore": "Publication in ",
-            "link": {
-              "url": "http://dl.acm.org/citation.cfm?id=2514403",
-              "text": "Neurocomputing"
-            },
-            "textAfter": ""
-          },
-          {
-            "icon": "fa-file-text",
-            "textBefore": "Publication in ",
-            "link": {
-              "url": "http://dl.acm.org/citation.cfm?id=2401511",
-              "text": "Knowledge-Based Systems"
-            },
-            "textAfter": ""
-          }
-        ]
-      },
-      {
-        "name": "Yangzhou University",
-        "location": "Yangzhou, China",
-        "year": "2005.9-2009.6",
-        "major": "Mathematics",
+        "name": "Chengdu University of Information Technology",
+        "location": "Chengdu, China",
+        "year": "2010.9-2014.6",
+        "major": "Software Engineering",
         "items": [
           {
             "icon": "fa-trophy",
-            "text": "First-class Scholarship Every Year"
+            "text": "Third-class Scholarship in freshman, National Aspiration Scholarship in junior"
           },
           {
             "icon": "fa-trophy",
-            "text": "Third prize of Mathematical Contest in Modeling"
+            "text": "'Challenge Cup' First-class in Sichuan Zone"
           }
         ]
       }
@@ -116,33 +90,29 @@
   "employment": {
     "jobs": [
       {
-        "name": "GreenDot Shanghai",
-        "position": "Front-end Engineer",
-        "year": "2014.5-Now",
+        "name": "1000phone",
+        "position": "iOS training instructor",
+        "year": "2015.8-now",
         "description": [
-          "Angular-based online banking system",
-          "Cover both desktop and mobile web",
-          "Architectural improvments",
-          "Build automation tooling"
+          "iOS tranining"
         ]
       },
       {
-        "name": "Samsung Electronics (China) R&D Center",
-        "position": "Software Engineer (Cloud Computing)",
-        "year": "2012.12-2014.4",
+        "name": "Chengdu EHE Technology",
+        "position": "Software Engineer (Qt/C++ & iOS)",
+        "year": "2014.4-2015.8",
         "description": [
-          "Cloud computing related project",
-          "70% of work is related to front-end"
+          "Qt Windows Desktop App",
+          "Use XULRunner to develop ERP",
+          "iOS mobile app"
         ]
       },
       {
-        "name": "Zealion Technology",
-        "position": "Software Engineer (Web/Mobile)",
-        "year": "2011.6-2012.9",
+        "name": "Beijing ELEX Technology",
+        "position": "Software Engineer Internship (Qt/C++)",
+        "year": "2013.9-2014.2",
         "description": [
-          "Rich interactive online app",
-          "Follow up full process of project",
-          "Full-stack development"
+          "Use Qt and CEF technology to develop Game Box"
         ]
       }
     ]
@@ -152,28 +122,41 @@
       "text": "Programming",
       "children": [
         {
-          "text": "Front-end",
+          "text": "iOS",
           "skills": [
             {
-              "name": "Javascript",
+              "name": "Objective-C",
               "rating": 5
             },
             {
-              "name": "HTML",
-              "rating": 3
-            },
-            {
-              "name": "CSS",
+              "name": "Swift",
               "rating": 3
             }
           ]
         },
         {
-          "text": "Backend (scripts)",
+          "text": "Front-end",
           "skills": [
             {
-              "name": "Python",
+              "name": "JavaScript",
+              "rating": 3
+            },
+            {
+              "name": "HTML",
               "rating": 2
+            },
+            {
+              "name": "CSS",
+              "rating": 2
+            }
+          ]
+        },
+        {
+          "text": "Backend",
+          "skills": [
+            {
+              "name": "C++",
+              "rating": 3
             },
             {
               "name": "Node",
@@ -184,33 +167,12 @@
       ]
     },
     "library": {
-      "text": "Libraries",
-      "children": ["angular", "jade", "stylus", "grunt/gulp", "webpack", "ES6", "karma", "protractor"]
+      "text": "iOS Libraries",
+      "children": ["AFNetworking", "SDWebImage", "YYKit", "MJRefresh", "MBProgressHUD", "Masonry", "FMDB", "DateTools"]
     },
     "tooling": {
       "text": "Tooling",
-      "children": ["GIT", "Mac", "Atom", "Scrum"]
-    },
-    "language": {
-      "text": "English",
-      "children": {
-        "CET4": {
-          "name": "CET4",
-          "text": "566"
-        },
-        "CET6": {
-          "name": "CET6",
-          "text": "459"
-        },
-        "TOEIC": {
-          "name": "TOEIC",
-          "text": "725"
-        },
-        "oral": {
-          "name": "Oral/Written",
-          "text": "Good"
-        }
-      }
+      "children": ["Git", "Mac", "Atom", "Xcode", "XMind", "Dash", "Charles", "Hardware IO Tools", "Paw", "Reveal", "Sketch", "Axure RP"]
     }
   },
   "project": {
@@ -223,7 +185,7 @@
         "description": [
           "Pure directive based development",
           "100% unit test coverage",
-          "cross browser E2E test with Sauce Labs",
+          "Cross browser E2E test with Sauce Labs",
           "Lazy Load modules",
           "Continuous Integration with TravisCI"
         ],
@@ -242,14 +204,14 @@
       {
         "icon": "fa-credit-card",
         "name": "GoBank/GreenDot",
-        "year": "2014.5-Now",
+        "year": "2014.5-2016.5",
         "library": ["angular", "stylus", "jade"],
         "description": [
           "Promote component based development",
           "Promote standard coding style",
-          "migrate from ngRoute to ui-router",
-          "migrate from angular 1.2 to 1.5",
-          "improve grunt build (20min -> 2min)",
+          "Migrate from ngRoute to ui-router",
+          "Migrate from angular 1.2 to 1.5",
+          "Improve grunt build (20min -> 2min)",
           "Build one-click deployment tooling"
         ],
         "links": [
@@ -352,24 +314,24 @@
   },
   "life": {
     "location": {
-      "lat": 31.259068,
-      "lng": 121.456105
+      "lat": 30.68,
+      "lng": 104.04
     },
     "photos": [
       {
-        "src": "skating.jpg",
-        "alt": "Skating",
-        "text": "Street Skating"
+        "src": "breakfast.jpg",
+        "alt": "Breakfast",
+        "text": "Breakfast"
       },
       {
-        "src": "archery.jpg",
-        "alt": "Archery",
-        "text": "Archery"
+        "src": "bipenggou.jpg",
+        "alt": "Traveling",
+        "text": "Bipenggou"
       },
       {
-        "src": "sea.jpg",
-        "alt": "Sea",
-        "text": "Travel in Mauritius"
+        "src": "gold.jpg",
+        "alt": "Solar deity",
+        "text": "Jinsha"
       }
     ]
   },
@@ -386,7 +348,7 @@
     },
     "online": {
       "text": "Online version: ",
-      "url": "http://pinkyjie.com/resume"
+      "url": "http://resume.chaosky.me"
     },
     "github": {
       "text": "Check more on my Github: "

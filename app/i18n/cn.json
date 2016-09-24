@@ -24,7 +24,7 @@
   },
   "header": {
     "name": "林天祥",
-    "title": "iOS 开发者",
+    "title": "iOS 攻城狮",
     "languageIcon": "en.png"
   },
   "about": {
@@ -35,7 +35,7 @@
         "icon": "fa-rss"
       },
       "github": {
-        "linkTitle": "Github",
+        "linkTitle": "GitHub",
         "url": "https://github.com/chaoskyme",
         "icon": "fa-github"
       },
@@ -51,15 +51,15 @@
       },
       "v2ex": {
         "linkTitle": "V2EX",
-        "url": "http://wpa.qq.com/msgrd?v=3&uin=352135591&site=qq&menu=yes",
-        "icon": "fa-cubes"
+        "url": "https://www.v2ex.com/member/error",
+        "icon": "fa-rocket"
       }
     },
     "introduction": [
       "本科软件工程专业",
-      "近3年互联网行业经验",
-      "超过2年专注iOS开发经验",
-      "3年的C++开发经验（大学使用Qt开发）"
+      "近 3年 互联网行业经验",
+      "超过 2年 专注 iOS 开发",
+      "3年的 C++ 开发（大学使用 Qt/C++ 开发）"
     ],
     "location": "中国成都",
     "phone": "(+86) 18981988677",
@@ -122,7 +122,7 @@
       "text": "编程",
       "children": [
         {
-          "text": "移动开发",
+          "text": "iOS",
           "skills": [
             {
               "name": "Objective-C",
@@ -130,7 +130,7 @@
             },
             {
               "name": "Swift",
-              "rating": 3
+              "rating": 4
             }
           ]
         },
@@ -143,11 +143,11 @@
             },
             {
               "name": "HTML5",
-              "rating": 1
+              "rating": 2
             },
             {
               "name": "CSS",
-              "rating": 1
+              "rating": 2
             }
           ]
         },
@@ -332,7 +332,7 @@
     },
     "online": {
       "text": "在线版: ",
-      "url": "http://chaosky.coding.me/resume/"
+      "url": "resume.chaosky.me"
     },
     "github": {
       "text": "更多项目请查看我的Github: "

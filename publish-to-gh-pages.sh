@@ -10,8 +10,8 @@ cd dist
 # git init
 git init
 # inside this git repo we'll pretend to be a new user
-git config user.name "Travis CI"
-git config user.email "travis@pinkyjie.com"
+git config user.name "Chaosky"
+git config user.email "chaosky.me@gmail.com"
 
 # The first and only commit to this new Git repo contains all the
 # files present with the commit message "Deploy to GitHub Pages".
@@ -23,3 +23,4 @@ git commit -m "Deploy at `date +"%Y-%m-%d %H:%M"`"
 # will be lost, since we are overwriting it.) We redirect any output to
 # /dev/null to hide any sensitive credential data that might otherwise be exposed.
 git push --force --quiet "https://git.coding.net/chaosky/resume.git" master:coding-pages > /dev/null 2>&1
+git push --force --quiet "https://github.com/chaoskyme/resume.git" master:gh-pages > /dev/null 2>&1
