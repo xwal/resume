@@ -29,16 +29,27 @@
         // map
         var lat = $('#map').data('lat');
         var lng = $('#map').data('lng');
-        var map = new GMaps({
-            div: '#map',
-            lat: lat,
-            lng: lng
+        // var map = new GMaps({
+        //     div: '#map',
+        //     lat: lat,
+        //     lng: lng
+        // });
+        // map.addMarker({
+        //     lat: lat,
+        //     lng: lng,
+        //     title: 'It\'s Me!'
+        // });
+        var map = new AMap.Map('map',{
+            resizeEnable: true,
+            zoom: 18,
+            center: [lng, lat]
         });
-        map.addMarker({
-            lat: lat,
-            lng: lng,
-            title: 'It\'s Me!'
+        var marker = new AMap.Marker({
+            position: [lng, lat]
         });
+        marker.setMap(map);
+        map.setCenter(marker.getPosition());
+        marker.setTitle('It\'s Me!');
     }
 
     $(init);

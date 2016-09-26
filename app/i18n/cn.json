@@ -24,7 +24,7 @@
   },
   "header": {
     "name": "林天祥",
-    "title": "iOS 攻城狮",
+    "title": "iOS 开发工程师",
     "languageIcon": "en.png"
   },
   "about": {
@@ -57,9 +57,11 @@
     },
     "introduction": [
       "本科软件工程专业",
-      "近 3年 互联网行业经验",
-      "超过 2年 专注 iOS 开发",
-      "3年的 C++ 开发（大学使用 Qt/C++ 开发）"
+      "近3年互联网行业经验",
+      "超过2年专注 iOS 开发",
+      "3年 C++ 开发",
+      "敏捷开发，持续交付",
+      "代码规范，最佳实践"
     ],
     "location": "中国成都",
     "phone": "(+86) 18981988677",
@@ -91,25 +93,27 @@
     "jobs": [
       {
         "name": "北京千锋互联科技有限公司成都分公司",
-        "position": "iOS 讲师",
+        "position": "iOS 培训讲师",
         "year": "2015.8至今",
         "description": [
-          "iOS 培训"
+          "从事 iOS 培训教学",
+          "研究 iOS 难点技术和前沿技术",
+          "参与 Swift 培训产品体系的设计"
         ]
       },
       {
         "name": "成都市亿合科技有限公司",
-        "position": "软件工程师（Qt/C++ & iOS 方向）",
+        "position": "软件工程师（Qt/C++ & iOS）",
         "year": "2014.4-2015.8",
         "description": [
-          "Qt 桌面应用开发",
-          "基于XULRunner二次开发，重写ERP桌面应用开发",
-          "iOS 程序开发"
+          "维护 Qt 桌面应用程序",
+          "基于 XULRunner 框架开发 ERP 桌面应用程序",
+          "开发上架多款 iOS 应用"
         ]
       },
       {
         "name": "北京智明星通科技有限公司",
-        "position": "软件工程师实习 (Qt/C++ 方向)",
+        "position": "软件工程师实习 (Qt/C++)",
         "year": "2013.9-2014.2",
         "description": [
           "基于Qt和CEF的网页游戏盒子开发"
@@ -167,27 +171,45 @@
       ]
     },
     "library": {
-      "text": "iOS 常用库",
-      "children": ["AFNetworking", "SDWebImage", "YYKit", "MJRefresh", "MBProgressHUD", "Masonry", "FMDB", "DateTools"]
+      "text": "常用库",
+      "children": ["AFNetworking", "POP/Spring", "Masonry/SnapKit", "RestKit", "MBProgressHUD", "YYKit", "JSPatch", "CocoaAsyncSocket", "WebViewJavascriptBridge", "RESideMenu", "XMPPFramework", "IQKeyboardManager"]
     },
     "tooling": {
       "text": "常用工具",
-      "children": ["Git", "Mac", "Atom", "Xcode", "XMind", "Dash", "Charles", "Hardware IO Tools", "Paw", "Reveal", "Sketch", "Axure RP"]
+      "children": ["Git", "CocoaPods", "fastlane", "Dash", "Charles", "Cornerstone", "SourceTree", "PaintCode", "Paw", "Reveal", "Sketch", "Axure RP", "StarUML"]
     }
   },
   "project": {
     "col1": [
+        {
+          "icon": "fa-apple",
+          "name": "克女郎",
+          "year": "2015.6-2015.8",
+          "library": ["AFN", "Masonry", "WebViewJavascriptBridge", "MJRefresh"],
+          "description": [
+            "克克女鞋移动购物App",
+            "Hybrid 混合开发",
+            "模块组件化",
+            "自定义视图模块"
+          ],
+          "links": [
+            {
+              "title": "App Store下载",
+              "icon": "fa-globe",
+              "url": "https://itunes.apple.com/cn/app/ke-nu-lang/id1050199870?mt=8"
+            }
+          ]
+        },
       {
         "icon": "fa-apple",
         "name": "农厨商城",
         "year": "2015.5-2015.7",
-        "library": ["AFNetworking", "SDWebImage", "MBProgressHUD", "Reachability", "CSNotificationView", "IQKeyboardManager", "Masonry"],
+        "library": ["AFN", "SDWebImage", "MJRefresh", "IQKeyboardManager", "Masonry", "XMLDictionary", "POP"],
         "description": [
-          "为餐饮企业提供新鲜蔬菜的网络商城",
+          "买卖生鲜食品的网上商城 App",
           "WebService数据处理",
-          "模块划分",
-          "自定义视图模块，定制复杂界面",
-          "Objective-C与JavaScript交互"
+          "组件化推广",
+          "OC 与 JavaScript 交互"
         ],
         "links": [
           {
@@ -201,12 +223,11 @@
         "icon": "fa-apple",
         "name": "亿合云商",
         "year": "2015.01-2015.04",
-        "library": ["AFNetworking", "FMDB", "GTMBase64", "MBProgressHUD", "MJRefresh"],
+        "library": ["AFN", "FMDB", "MBProgressHUD", "MJRefresh"],
         "description": [
-          "完整电商功能 App",
-          "WebService 数据处理",
-          "采用CocoaPods管理第三方库",
-          "业务逻辑优化",
+          "通用电商模板",
+          "UI重构",
+          "业务逻辑优化，实现组件化",
           "分发测试"
         ],
         "links": [
@@ -221,13 +242,11 @@
         "icon": "fa-apple",
         "name": "品界",
         "year": "2014.08-2015.03",
-        "library": ["AFNetworking", "FMDB", "GTMBase64", "MBProgressHUD", "MJRefresh"],
+        "library": ["AFN", "FMDB", "MBProgressHUD", "MJRefresh"],
         "description": [
-          "女装批发商城 App",
-          "WebService 数据处理",
-          "采用CocoaPods管理第三方库",
-          "业务逻辑优化",
-          "分发测试"
+          "女装批发的网上商城 App",
+          "单元测试，bug 修复、项目维护",
+          "实现新的业务逻辑功能"
         ],
         "links": [
           {
@@ -241,45 +260,43 @@
     "col2": [
         {
           "icon": "fa-windows",
-          "name": "网络爬虫",
+          "name": "爬虫",
           "year": "2014.12-2015.01",
           "library": ["Qt", "QtWebKit", "QODBC"],
           "description": [
             "抓取赶集网全国小区数据，总共抓了50多万条",
-            "利用QWebPage解析HTML数据",
-            "QODBC连接MS Sql Server存储数据"
+            "利用 QWebPage 解析 HTML 数据",
+            "QODBC 连接 Sql Server 数据库存储数据"
           ]
         },
         {
           "icon": "fa-windows",
-          "name": "房产中介管理系统客户端",
+          "name": "房产中介管理系统桌面应用",
           "year": "2014.04-2014.11",
-          "library": ["XULRunner", "XUL"],
+          "library": ["XULRunner", "XUL", "XPCOM"],
           "description": [
-            "基于XULRunner进行二次开发",
-            "采用XUL开发界面，使用JavaScript和xpcom实现业务逻辑",
-            "网络广播控制客户端数量"
+            "基于 XULRunner 框架开发",
+            "网络广播实现客户端限制启动"
           ]
       },
       {
         "icon": "fa-windows",
-        "name": "337游戏客户端",
+        "name": "337游戏盒子",
         "year": "2013.11-2014.02",
         "library": ["Qt", "CEF"],
         "description": [
-          "利用 Qt 和 CEF 集成实现游戏盒子",
-          "利用CEF加载网页游戏，优化网页加载速度（100ms -> 50ms）"
+          "利用 Qt 和 CEF 框架集成开发游戏盒子",
+          "优化网页加载速度（100ms -> 50ms）"
         ]
       },
       {
         "icon": "fa-windows",
-        "name": "网络音视频通话客户端",
+        "name": "即时通信桌面应用",
         "year": "2012.06-2014.06",
         "library": ["Qt", "Linphone"],
         "description": [
-          "大学期间实验室项目",
-          "基于 Qt 实现界面",
-          "基于 Linphone 实现网络音视频电话"
+          "Qt 实现界面",
+          "Linphone 实现网络音视频"
         ]
       }
     ],
@@ -290,6 +307,10 @@
         {
           "author": "chaoskyme",
           "repo": "Demo"
+        },
+        {
+          "author": "chaoskyme",
+          "repo": "chaoskyme.github.io"
         }
       ]
     }
