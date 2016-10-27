@@ -209,10 +209,16 @@ for lang in all_langs:
         pdf.cell(ellipse['margin'])
         skill_names = [i['name'] for i in item['skills']]
         pdf.cell(1, line_height['text'] - 1, item['text'] + u': ' + ', '.join(skill_names), ln=2)
+        pdf.ln(page_size['section_margin'])
     pdf.set_x(page_size['left'] + page_size['section_indent'])
     pdf.ellipse(pdf.get_x(), pdf.get_y() + 1.5, ellipse['size'], ellipse['size'], 'F')
     pdf.cell(ellipse['margin'])
     pdf.cell(1, line_height['text'] - 1, data['skill']['library']['text'] + u': ' + ', '.join(data['skill']['library']['children']), ln=2)
+    pdf.ln(page_size['section_margin'])
+    pdf.set_x(page_size['left'] + page_size['section_indent'])
+    pdf.ellipse(pdf.get_x(), pdf.get_y() + 1.5, ellipse['size'], ellipse['size'], 'F')
+    pdf.cell(ellipse['margin'])
+    pdf.cell(1, line_height['text'] - 1, data['skill']['tooling']['text'] + u': ' + ', '.join(data['skill']['tooling']['children']), ln=2)
     pdf.ln(page_size['section_margin'])
     # project section
     pdf.set_x(page_size['left'])

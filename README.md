@@ -1,7 +1,7 @@
-MyResume [![Travis](https://img.shields.io/travis/PinkyJie/resume.svg?style=flat-square)](https://travis-ci.org/PinkyJie/resume)
+MyResume [![Travis](https://travis-ci.org/chaoskyme/resume.svg)](https://travis-ci.org/chaoskyme/resume)
 ========
 
-[http://pinkyjie.com/resume](http://pinkyjie.com/resume)
+<resume.chaosky.me>
 
 Theme by [Flatty Resume](http://amindiary.com/demo/flatty-cv/)
 
@@ -41,5 +41,3 @@ Built with [Yeoman](http://yeoman.io/)
 * Use your github account to access [TravisCI](https://travis-ci.org/), activate your repo.
 * Update `env` in `.travis.yml` (check my blog: [用TravisCI来做持续集成](http://pinkyjie.com/2016/02/27/continuous-integration-with-travis-ci/))
 * Push code to your forked repo, then Travis will automatically deploy build on your Github Pages.
-
-

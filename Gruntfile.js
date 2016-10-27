@@ -121,18 +121,18 @@ module.exports = function (grunt) {
                 files: {
                     '<%= yeoman.app %>/index.html': ['<%= yeoman.app %>/index.jade']
                 }
-            },
-            en: {
-                options: {
-                    data:  function() {
-                        return require('./app/i18n/en.json');
-                    },
-                    pretty: true
-                },
-                files: {
-                    '<%= yeoman.app %>/en.html': ['<%= yeoman.app %>/index.jade']
-                }
             }
+            // en: {
+            //     options: {
+            //         data:  function() {
+            //             return require('./app/i18n/en.json');
+            //         },
+            //         pretty: true
+            //     },
+            //     files: {
+            //         '<%= yeoman.app %>/en.html': ['<%= yeoman.app %>/index.jade']
+            //     }
+            // }
         },
 
         // Compiles Sass to CSS and generates necessary files if requested

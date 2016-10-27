@@ -14,18 +14,15 @@
   },
   "badge": {
     "githubLink": "https://github.com/chaoskyme",
-    "languageImageAlt": "switch to English",
-    "languageText": "English",
-    "languageLink": "./en.html",
     "downloadPDFImageAlt": "下载PDF版",
-    "downloadPDFText": "下载",
+    "downloadPDFText": "下载PDF版",
     "pdfLink": "林天祥-iOS-简历.pdf",
     "pdfName": "林天祥-iOS-简历"
   },
   "header": {
     "name": "林天祥",
     "title": "iOS 开发工程师",
-    "languageIcon": "en.png"
+    "languageIcon": "cn.png"
   },
   "about": {
     "socials": {
@@ -56,14 +53,12 @@
       }
     },
     "introduction": [
-      "本科软件工程专业",
-      "近3年互联网行业经验",
-      "超过2年专注 iOS 开发",
-      "3年 C++ 开发",
+      "喜欢折腾的 iOS 程序猿，有多款上线 App",
+      "近3年 IT 从业经历，超过2年专注 iOS 开发",
       "敏捷开发，持续交付",
       "代码规范，最佳实践"
     ],
-    "location": "中国成都",
+    "location": "四川●成都",
     "phone": "(+86) 18981988677",
     "email": "chaosky.me@gmail.com",
     "age": "1991年",
@@ -73,9 +68,9 @@
     "universities": [
       {
         "name": "成都信息工程大学",
-        "location": "中国成都",
-        "year": "2010.9-2014.6",
-        "major": "软件工程（工学学士）",
+        "location": "四川●成都",
+        "year": "2010-2014",
+        "major": "软件工程（本科）",
         "items": [
           {
             "icon": "fa-trophy",
@@ -106,9 +101,9 @@
         "position": "软件工程师（Qt/C++ & iOS）",
         "year": "2014.4-2015.8",
         "description": [
-          "维护 Qt 桌面应用程序",
-          "基于 XULRunner 框架开发 ERP 桌面应用程序",
-          "开发上架多款 iOS 应用"
+          "基于 Qt/C++ 的桌面应用程序开发",
+          "基于 XULRunner 的 ERP 开发",
+          "开发上架多款 iOS App"
         ]
       },
       {
@@ -116,7 +111,7 @@
         "position": "软件工程师实习 (Qt/C++)",
         "year": "2013.9-2014.2",
         "description": [
-          "基于Qt和CEF的网页游戏盒子开发"
+          "基于 Qt 和 CEF 的游戏盒子开发"
         ]
       }
     ]
@@ -135,6 +130,14 @@
             {
               "name": "Swift",
               "rating": 4
+            },
+            {
+              "name": "Hybrid",
+              "rating": 3
+            },
+            {
+              "name": "React Native",
+              "rating": 3
             }
           ]
         },
@@ -172,11 +175,11 @@
     },
     "library": {
       "text": "常用库",
-      "children": ["AFNetworking", "POP/Spring", "Masonry/SnapKit", "RestKit", "MBProgressHUD", "YYKit", "JSPatch", "CocoaAsyncSocket", "WebViewJavascriptBridge", "RESideMenu", "XMPPFramework", "IQKeyboardManager"]
+      "children": ["AFN", "POP/Spring", "Masonry/SnapKit", "RestKit", "HUD", "YYKit", "JSPatch", "CocoaAsyncSocket", "ReactiveCocoa"]
     },
     "tooling": {
       "text": "常用工具",
-      "children": ["Git", "CocoaPods", "fastlane", "Dash", "Charles", "Cornerstone", "SourceTree", "PaintCode", "Paw", "Reveal", "Sketch", "Axure RP", "StarUML"]
+      "children": ["Git/SVN", "CocoaPods", "Dash", "Charles", "Reveal", "Sketch", "StarUML", "Docker", "IDA/Hopper",  "Jenkins/Travis CI"]
     }
   },
   "project": {
@@ -264,9 +267,8 @@
           "year": "2014.12-2015.01",
           "library": ["Qt", "QtWebKit", "QODBC"],
           "description": [
-            "抓取赶集网全国小区数据，总共抓了50多万条",
-            "利用 QWebPage 解析 HTML 数据",
-            "QODBC 连接 Sql Server 数据库存储数据"
+            "抓取赶集网总共50多万条小区数据",
+            "基于 Qt 爬取网页，提取结构性数据，存储在数据库中"
           ]
         },
         {
