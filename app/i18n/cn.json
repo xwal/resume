@@ -1,7 +1,7 @@
 {
   "html": {
     "title": "林天祥的简历",
-    "description": "简历 iOS Objective-C Swift"
+    "description": "Resume iOS Objective-C Swift"
   },
   "sections": {
     "header": "首页",
@@ -21,13 +21,13 @@
   },
   "header": {
     "name": "林天祥",
-    "title": "iOS 开发工程师",
+    "title": "iOS 开发中级工程师",
     "languageIcon": "cn.png"
   },
   "about": {
     "socials": {
       "blog": {
-        "linkTitle": "博客",
+        "linkTitle": "个人博客",
         "url": "http://chaosky.me",
         "icon": "fa-rss"
       },
@@ -54,11 +54,11 @@
     },
     "introduction": [
       "喜欢折腾的 iOS 程序猿，有多款上线 App",
-      "近3年 IT 从业经历，超过2年专注 iOS 开发",
+      "近 3年 IT从业经历，超过 2年 专注 iOS 开发",
       "敏捷开发，持续交付",
       "代码规范，最佳实践"
     ],
-    "location": "四川●成都",
+    "location": "四川 ● 成都",
     "phone": "(+86) 18981988677",
     "email": "chaosky.me@gmail.com",
     "age": "1991年",
@@ -68,8 +68,8 @@
     "universities": [
       {
         "name": "成都信息工程大学",
-        "location": "四川●成都",
-        "year": "2010-2014",
+        "location": "四川 ● 成都",
+        "year": "2010 - 2014",
         "major": "软件工程（本科）",
         "items": [
           {
