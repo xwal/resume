@@ -1,21 +1,28 @@
 branches:
   only:
-    - master
+  - master
 language: node_js
 node_js:
-  - stable
+- stable
 before_install:
-  - rvm install 2.1.5
-  - npm install -g grunt-cli
+- openssl aes-256-cbc -K $encrypted_2beeac974e2c_key -iv $encrypted_2beeac974e2c_iv
+  -in .travis/id_rsa.enc -out ~/.ssh/id_rsa -d
+- chmod 600 ~/.ssh/id_rsa
+- sudo cp .travis/ssh_config /etc/ssh/ssh_config
+- sudo chmod 755 /etc/ssh/ssh_config
+- eval "$(ssh-agent -s)"
+- ssh-add ~/.ssh/id_rsa
+- rvm install 2.1.5
+- npm install -g grunt-cli
 install:
-  - gem install compass
-  - pip install --user fpdf
-  - npm install
-  - npm run bower
+- gem install compass
+- pip install --user fpdf
+- npm install
+- npm run bower
 script:
-  - ./publish-to-gh-pages.sh
+- "./publish-to-gh-pages.sh"
 after_success:
 env:
   global:
-    - GitHub_REF: github.com/chaoskyme/resume.git
-    - secure: "rCOp8TBegHK1XKTvm/a2C94MDv7KD1Lfqv5EzC+S8jR2vX3Zv1MmFfqD+ecIXLX1Lc6VckpjpZ/cvHQV8q+RP+ltisDnOYeAhsVPU6bmh+lF2Ugu8d8Sm/3oBptuTpMQeVLfnhE1to8xkY2rSr5Ykl2BljR9CnFFwHZQPvwhSVJH7ifxeq/lhC0z+DDuVPKE1oU3X0MHXgl3a498Du3pli2j/VJPrZjfppbG5JxGa012VEPkzaS8/vJNOkSrGYVqFF0C1TcsREWCO57QFn4drpZVQAEuXM6JOdxuxfdf5POC/lUF/I3HR/UNiVk/AGT2abfXkz5ZvSE4cZJhtuc3kvhfy5re8Y5tU1+ltoE18cGr6HkaceOb2tAHbWA79xa8fXtGCMfBn9JuJJVXUhgKGSugz4+xCNVbjwUYZ2ZO9T4OKomtfk0nES7Bel4hj7ucpAmAFsLGxOiAs+IE9n3i4Y6Cx9Betm4i2iuzKCfRlFjq7WJ+cwro0XCHPxoHibHW4DJcmRHmSaw3eWVmhkiQkpnzHoVpWTz1yYDbs/NrLD7jXLk/WmmaSEV/OCrgxR2cWKW/bXbxDElNfcKTpQaq54m0XdIHxvz071QsxYEVpC7YcZJA/ZjbXQDSdO0Mc4pUs78tdFS2bGvrTbIN37BZ+hptWoD4kZ+ul/OCkbi9zh0="
+  - GitHub_REF: github.com/chaoskyme/resume.git
+  - secure: rCOp8TBegHK1XKTvm/a2C94MDv7KD1Lfqv5EzC+S8jR2vX3Zv1MmFfqD+ecIXLX1Lc6VckpjpZ/cvHQV8q+RP+ltisDnOYeAhsVPU6bmh+lF2Ugu8d8Sm/3oBptuTpMQeVLfnhE1to8xkY2rSr5Ykl2BljR9CnFFwHZQPvwhSVJH7ifxeq/lhC0z+DDuVPKE1oU3X0MHXgl3a498Du3pli2j/VJPrZjfppbG5JxGa012VEPkzaS8/vJNOkSrGYVqFF0C1TcsREWCO57QFn4drpZVQAEuXM6JOdxuxfdf5POC/lUF/I3HR/UNiVk/AGT2abfXkz5ZvSE4cZJhtuc3kvhfy5re8Y5tU1+ltoE18cGr6HkaceOb2tAHbWA79xa8fXtGCMfBn9JuJJVXUhgKGSugz4+xCNVbjwUYZ2ZO9T4OKomtfk0nES7Bel4hj7ucpAmAFsLGxOiAs+IE9n3i4Y6Cx9Betm4i2iuzKCfRlFjq7WJ+cwro0XCHPxoHibHW4DJcmRHmSaw3eWVmhkiQkpnzHoVpWTz1yYDbs/NrLD7jXLk/WmmaSEV/OCrgxR2cWKW/bXbxDElNfcKTpQaq54m0XdIHxvz071QsxYEVpC7YcZJA/ZjbXQDSdO0Mc4pUs78tdFS2bGvrTbIN37BZ+hptWoD4kZ+ul/OCkbi9zh0=
