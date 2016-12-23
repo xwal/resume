@@ -22,5 +22,5 @@ git commit -m "Deploy at `date +"%Y-%m-%d %H:%M"`"
 # repo's gh-pages branch. (All previous history on the gh-pages branch
 # will be lost, since we are overwriting it.) We redirect any output to
 # /dev/null to hide any sensitive credential data that might otherwise be exposed.
-git push --force --quiet "https://${GitHub_TOKEN}@${GitHub_REF}" master:gh-pages > /dev/null 2>&1
-git push --force --quiet "https://git.coding.net/chaosky/resume.git" master:coding-pages > /dev/null 2>&1
+git push --force --quiet "https://${GitHub_TOKEN}@${GitHub_REF}" master:gh-pages
+git push --force --quiet "https://git.coding.net/chaosky/resume.git" master:coding-pages
