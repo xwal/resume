@@ -233,7 +233,7 @@ for lang in all_langs:
     pdf.cell(1, line_height['text'] - 1, data['about']['socials']['github']['url'], ln=2, link=data['about']['socials']['github']['url'])
     pdf.set_y(pdf.get_y() + 3)
     pdf.set_text_color(black)
-    projects = data['project']['col1'] + data['project']['col2']
+    projects = data['project']['col1'] + data['project']['col2'] + data['project']['others']['repos']
     apply_two_column(pdf, projects, draw_func_project);
     # output file
     pdf.output('./dist/' + data['badge']['pdfLink'], 'F')

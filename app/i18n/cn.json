@@ -21,7 +21,7 @@
   },
   "header": {
     "name": "林天祥",
-    "title": "iOS 开发中级工程师",
+    "title": "iOS 中级工程师",
     "languageIcon": "cn.png"
   },
   "about": {
@@ -53,10 +53,10 @@
       }
     },
     "introduction": [
-      "喜欢折腾的 iOS 程序猿，有多款上线 App",
-      "近 3年 IT从业经历，超过 2年 专注 iOS 开发",
-      "敏捷开发，持续交付",
-      "代码规范，最佳实践"
+      "喜欢折腾的iOS程序猿，有多款上线App",
+      "近3年IT从业经历，超过2年专注iOS开发",
+      "敏捷开发，持续交付；代码规范，最佳实践",
+      "源码之前，了无秘密"
     ],
     "location": "四川 ● 成都",
     "phone": "(+86) 18981988677",
@@ -78,7 +78,11 @@
           },
           {
             "icon": "fa-trophy",
-            "text": "挑战杯科技作品竞赛四川省赛区金奖"
+            "text": "挑战杯作品『一体化网络通信服务器』获四川赛区金奖"
+          },
+          {
+            "icon": "fa-code",
+            "text": "从大二开始在 DB&KE Lab of CUIT 进行C++开发"
           }
         ]
       }
@@ -132,11 +136,11 @@
               "rating": 4
             },
             {
-              "name": "Hybrid",
+              "name": "Hybrid/React Native",
               "rating": 3
             },
             {
-              "name": "React Native",
+              "name": "逆向分析",
               "rating": 3
             }
           ]
@@ -166,6 +170,10 @@
               "rating": 3
             },
             {
+              "name": "Python",
+              "rating": 2
+            },
+            {
               "name": "Node",
               "rating": 1
             }
@@ -174,8 +182,8 @@
       ]
     },
     "library": {
-      "text": "常用库",
-      "children": ["AFN", "POP/Spring", "Masonry/SnapKit", "RestKit", "HUD", "YYKit", "JSPatch", "CocoaAsyncSocket", "ReactiveCocoa"]
+      "text": "常用类库",
+      "children": ["AFN/Alamofire", "POP/Spring", "Masonry/SnapKit", "RestKit", "YYKit", "JSPatch", "GCDSocket", "RAC"]
     },
     "tooling": {
       "text": "常用工具",
@@ -207,10 +215,10 @@
         "icon": "fa-apple",
         "name": "农厨商城",
         "year": "2015.5-2015.7",
-        "library": ["AFN", "SDWebImage", "MJRefresh", "IQKeyboardManager", "Masonry", "XMLDictionary", "POP"],
+        "library": ["AFN", "SDWebImage", "MJRefresh", "Masonry", "XMLDictionary", "POP"],
         "description": [
           "买卖生鲜食品的网上商城 App",
-          "WebService数据处理",
+          "WebService SOAP 数据处理",
           "组件化推广",
           "OC 与 JavaScript 交互"
         ],
@@ -229,7 +237,6 @@
         "library": ["AFN", "FMDB", "MBProgressHUD", "MJRefresh"],
         "description": [
           "通用电商模板",
-          "UI重构",
           "业务逻辑优化，实现组件化",
           "分发测试"
         ],
@@ -262,7 +269,7 @@
     ],
     "col2": [
         {
-          "icon": "fa-windows",
+          "icon": "fa-desktop",
           "name": "爬虫",
           "year": "2014.12-2015.01",
           "library": ["Qt", "QtWebKit", "QODBC"],
@@ -272,7 +279,7 @@
           ]
         },
         {
-          "icon": "fa-windows",
+          "icon": "fa-desktop",
           "name": "房产中介管理系统桌面应用",
           "year": "2014.04-2014.11",
           "library": ["XULRunner", "XUL", "XPCOM"],
@@ -282,7 +289,7 @@
           ]
       },
       {
-        "icon": "fa-windows",
+        "icon": "fa-desktop",
         "name": "337游戏盒子",
         "year": "2013.11-2014.02",
         "library": ["Qt", "CEF"],
@@ -292,7 +299,7 @@
         ]
       },
       {
-        "icon": "fa-windows",
+        "icon": "fa-desktop",
         "name": "即时通信桌面应用",
         "year": "2012.06-2014.06",
         "library": ["Qt", "Linphone"],
@@ -304,23 +311,39 @@
     ],
     "others": {
       "text": "其他个人项目",
-      "year": "2012.1至今",
       "repos": [
-        {
-          "author": "chaoskyme",
-          "repo": "Demo"
-        },
-        {
-          "author": "chaoskyme",
-          "repo": "chaoskyme.github.io"
-        }
+          {
+            "icon": "fa-apple",
+            "name": "世界地理画报",
+            "year": "2016.11-至今",
+            "library": ["Alamofire", "Kingfisher", "SnapKit", "DateTools"],
+            "description": [
+              "壁纸类 App 应用，每日精选最美壁纸。",
+              "UITableView视差效果",
+              "双UITableView布局",
+              "UITableView自动计算行高",
+              "UIPageViewController的使用"
+            ],
+            "links": [
+              {
+                "title": "App Store下载",
+                "icon": "fa-globe",
+                "url": "https://itunes.apple.com/us/app/guo-jia-de-li-hua-bao/id1178885979?l=zh&ls=1&mt=8"
+              },
+              {
+                "title": "项目介绍",
+                "icon": "fa-globe",
+                "url": "http://chaosky.me/workspace/ngp"
+              }
+            ]
+          }
       ]
     }
   },
   "life": {
     "location": {
-      "lat": 30.68,
-      "lng": 104.04
+      "lat": 30.741715,
+      "lng": 103.981096
     },
     "photos": [
       {
