@@ -16,12 +16,12 @@
     "githubLink": "https://github.com/chaoskyme",
     "downloadPDFImageAlt": "下载PDF版",
     "downloadPDFText": "下载PDF版",
-    "pdfLink": "林天祥-iOS-简历.pdf",
-    "pdfName": "林天祥-iOS-简历"
+    "pdfLink": "林天祥-应聘iOS开发工程师-3年开发.pdf",
+    "pdfName": "林天祥-应聘iOS开发工程师-3年开发"
   },
   "header": {
     "name": "林天祥",
-    "title": "iOS 中级工程师",
+    "title": "iOS 开发工程师",
     "languageIcon": "cn.png"
   },
   "about": {
@@ -54,9 +54,9 @@
     },
     "introduction": [
       "喜欢折腾的iOS程序猿，有多款上线App",
-      "近3年IT从业经历，超过2年专注iOS开发",
-      "敏捷开发，持续交付；代码规范，最佳实践",
-      "源码之前，了无秘密"
+      "近3年互联网行业经验，超过2年的专注iOS开发经验",
+      "良好的代码规范，有自己的iOS最佳实践",
+      "熟悉敏捷开发，自动化持续集成"
     ],
     "location": "四川 ● 成都",
     "phone": "(+86) 18981988677",
@@ -82,7 +82,7 @@
           },
           {
             "icon": "fa-code",
-            "text": "从大二开始在 DB&KE Lab of CUIT 进行C++开发"
+            "text": "从大二开始在 DB&KE 实验室进行 Qt/C++ 开发"
           }
         ]
       }
@@ -146,7 +146,7 @@
           ]
         },
         {
-          "text": "前端开发",
+          "text": "前端",
           "skills": [
             {
               "name": "JavaScript",
@@ -163,10 +163,10 @@
           ]
         },
         {
-          "text": "后端开发",
+          "text": "后端（自动化脚本）",
           "skills": [
             {
-              "name": "C++",
+              "name": "Qt/C++",
               "rating": 3
             },
             {
@@ -215,7 +215,7 @@
         "icon": "fa-apple",
         "name": "农厨商城",
         "year": "2015.5-2015.7",
-        "library": ["AFN", "SDWebImage", "MJRefresh", "Masonry", "XMLDictionary", "POP"],
+        "library": ["AFN", "SDWebImage", "MJRefresh", "Masonry", "Ono", "POP"],
         "description": [
           "买卖生鲜食品的网上商城 App",
           "WebService SOAP 数据处理",
@@ -381,7 +381,7 @@
       "url": "resume.chaosky.me"
     },
     "github": {
-      "text": "更多项目请查看我的Github: "
+      "text": "更多项目请查看我的GitHub: "
     }
   }
 }
