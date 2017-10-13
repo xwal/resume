@@ -53,8 +53,8 @@
       }
     },
     "introduction": [
-      "喜欢折腾的iOS程序猿，有多款上线App",
-      "3年多互联网行业经验，超过2年专注于iOS开发",
+      "喜欢折腾的iOS程序猿，参与多款App开发",
+      "近3年专注iOS开发经验",
       "良好的代码规范，注重实效",
       "熟悉敏捷开发，自动化持续集成"
     ],
@@ -95,7 +95,10 @@
         "position": "iOS 开发工程师",
         "year": "2017.3至今",
         "description": [
-          "Camera360 相机开发"
+          "参与 Camera360 相机侧重构",
+          "开发大片滤镜和测试打包工具",
+          "开发新版 Unity 3D 贴纸控件和功能",
+          "公司内部 Swift 培训"
         ]
       },
       {
@@ -104,26 +107,25 @@
         "year": "2015.8-2017.3",
         "description": [
           "从事 iOS 培训教学",
-          "研究 iOS 难点技术和前沿技术",
-          "参与 Swift 培训产品体系的设计"
+          "参与制定 Swift 培训课程体系"
         ]
       },
       {
         "name": "成都市亿合科技有限公司",
-        "position": "软件工程师（Qt/C++ & iOS）",
+        "position": "软件工程师（Qt && iOS）",
         "year": "2014.4-2015.8",
         "description": [
-          "基于 Qt/C++ 的桌面应用程序开发",
-          "基于 XULRunner 的 ERP 开发",
-          "开发上架多款 iOS App"
+          "基于 Qt 和 Firefox XULRunner 的 ERP 软件开发维护",
+          "开发上架多款 iOS APP（克女郎、农厨商城、品界等）"
         ]
       },
       {
         "name": "北京智明星通科技有限公司",
-        "position": "软件工程师实习 (Qt/C++)",
+        "position": "C++工程师实习 (Qt) ",
         "year": "2013.9-2014.2",
         "description": [
-          "基于 Qt 和 CEF 的游戏盒子开发"
+          "基于 Qt 和 CEF 的游戏盒子开发",
+          ""
         ]
       }
     ]
@@ -178,12 +180,12 @@
               "rating": 3
             },
             {
-              "name": "Python",
-              "rating": 2
+              "name": "Shell",
+              "rating": 3
             },
             {
-              "name": "Node",
-              "rating": 1
+              "name": "Python",
+              "rating": 2
             }
           ]
         }
@@ -191,34 +193,54 @@
     },
     "library": {
       "text": "常用类库",
-      "children": ["AFN/Alamofire", "POP/Spring", "Masonry/SnapKit", "RestKit", "YYKit", "JSPatch", "GCDSocket", "RAC"]
+      "children": ["AFN/Alamofire", "POP/Spring", "Masonry/SnapKit", "RestKit", "YYKit", "JSPatch", "GCDSocket", "ReactiveCocoa"]
     },
     "tooling": {
       "text": "常用工具",
-      "children": ["Git/SVN", "CocoaPods", "Dash", "Charles", "Reveal", "Sketch", "StarUML", "Docker", "IDA/Hopper",  "Jenkins/Travis CI"]
+      "children": ["Shell", "PGTool 工具链", "Git", "CocoaPods", "Charles", "Reveal", "Sketch", "Fastlane", "Hopper",  "Jenkins/Travis CI"]
     }
   },
   "project": {
     "col1": [
-        {
-          "icon": "fa-apple",
-          "name": "克女郎",
-          "year": "2015.6-2015.8",
-          "library": ["AFN", "Masonry", "WebViewJavascriptBridge", "MJRefresh"],
-          "description": [
-            "克克女鞋移动购物App",
-            "Hybrid 混合开发",
-            "模块组件化",
-            "自定义视图模块"
-          ],
-          "links": [
-            {
-              "title": "App Store下载",
-              "icon": "fa-globe",
-              "url": "https://itunes.apple.com/cn/app/ke-nu-lang/id1050199870?mt=8"
-            }
-          ]
-        },
+      {
+        "icon": "fa-apple",
+        "name": "Camera360",
+        "year": "2017.3-至今",
+        "library": ["内部封装库", "ReactiveCocoa", "YYKit", "ZipArchive"],
+        "description": [
+          "参与8.5.0相机重构，负责UI和作图流程，优化App启动速度",
+          "开发相机取景运营弹窗，滤镜和贴纸渗透率从5%提高到15%",
+          "开发大片滤镜，并开发在线调试工具和批量作图导出功能",
+          "开发 Unity3D 贴纸控件和功能，贴纸渗透率从28%提高到43%",
+          "AppStore 摄影和录像类别排名从48上升到14"
+        ],
+        "links": [
+          {
+            "title": "App Store下载",
+            "icon": "fa-globe",
+            "url": "https://itunes.apple.com/cn/app/相机360-自拍达人必备的美颜神器/id443354861?mt=8"
+          }
+        ]
+      },
+      {
+        "icon": "fa-apple",
+        "name": "克女郎",
+        "year": "2015.6-2015.8",
+        "library": ["AFN", "Masonry", "WebViewJavascriptBridge", "MJRefresh"],
+        "description": [
+          "克克女鞋移动购物App",
+          "Hybrid 混合开发",
+          "模块组件化",
+          "自定义视图模块"
+        ],
+        "links": [
+          {
+            "title": "App Store下载",
+            "icon": "fa-globe",
+            "url": "https://itunes.apple.com/cn/app/ke-nu-lang/id1050199870?mt=8"
+          }
+        ]
+      },
       {
         "icon": "fa-apple",
         "name": "农厨商城",
@@ -263,8 +285,7 @@
         "library": ["AFN", "FMDB", "MBProgressHUD", "MJRefresh"],
         "description": [
           "女装批发的网上商城 App",
-          "单元测试，bug 修复、项目维护",
-          "实现新的业务逻辑功能"
+          "单元测试，bug 修复、项目维护"
         ],
         "links": [
           {
@@ -276,25 +297,25 @@
       }
     ],
     "col2": [
-        {
-          "icon": "fa-desktop",
-          "name": "爬虫",
-          "year": "2014.12-2015.01",
-          "library": ["Qt", "QtWebKit", "QODBC"],
-          "description": [
-            "抓取赶集网总共50多万条小区数据",
-            "基于 Qt 爬取网页，提取结构性数据，存储在数据库中"
-          ]
-        },
-        {
-          "icon": "fa-desktop",
-          "name": "房产中介管理系统桌面应用",
-          "year": "2014.04-2014.11",
-          "library": ["XULRunner", "XUL", "XPCOM"],
-          "description": [
-            "基于 XULRunner 框架开发",
-            "网络广播实现客户端限制启动"
-          ]
+      {
+        "icon": "fa-desktop",
+        "name": "赶集网小区数据爬虫",
+        "year": "2014.12-2015.01",
+        "library": ["Qt", "QtWebKit", "QODBC"],
+        "description": [
+          "抓取赶集网总共50多万条小区数据",
+          "基于 Qt 爬取网页，提取结构性数据，存储在数据库中"
+        ]
+      },
+      {
+        "icon": "fa-desktop",
+        "name": "房产中介管理系统桌面应用",
+        "year": "2014.04-2014.11",
+        "library": ["XULRunner", "XUL", "XPCOM"],
+        "description": [
+          "基于 XULRunner 框架开发",
+          "网络广播实现客户端限制启动"
+        ]
       },
       {
         "icon": "fa-desktop",
@@ -326,11 +347,10 @@
             "year": "2016.11-至今",
             "library": ["Alamofire", "Kingfisher", "SnapKit", "DateTools"],
             "description": [
-              "壁纸类 App 应用，每日精选最美壁纸。",
+              "壁纸类 App 应用",
               "UITableView视差效果",
               "双UITableView布局",
-              "UITableView自动计算行高",
-              "UIPageViewController的使用"
+              "UITableView自动计算行高"
             ],
             "links": [
               {
