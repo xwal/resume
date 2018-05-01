@@ -6,10 +6,10 @@ from fpdf import FPDF
 
 # page size
 page_size = {
-    'left': 10,
+    'left': 5,
     'top': 10,
-    'middle_x': 120,
-    'end_x': 200,
+    'middle_x': 110,
+    'end_x': 205,
     'section_indent': 10,
     'section_margin': 1
 }
@@ -219,6 +219,11 @@ for lang in all_langs:
     pdf.ellipse(pdf.get_x(), pdf.get_y() + 1.5, ellipse['size'], ellipse['size'], 'F')
     pdf.cell(ellipse['margin'])
     pdf.cell(1, line_height['text'] - 1, data['skill']['tooling']['text'] + u': ' + ', '.join(data['skill']['tooling']['children']), ln=2)
+    pdf.ln(page_size['section_margin'])
+    pdf.set_x(page_size['left'] + page_size['section_indent'])
+    pdf.ellipse(pdf.get_x(), pdf.get_y() + 1.5, ellipse['size'], ellipse['size'], 'F')
+    pdf.cell(ellipse['margin'])
+    pdf.cell(1, line_height['text'] - 1, data['skill']['thirdparty']['text'] + u': ' + ', '.join(data['skill']['thirdparty']['children']), ln=2)
     pdf.ln(page_size['section_margin'])
     # project section
     pdf.set_x(page_size['left'])

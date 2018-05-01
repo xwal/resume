@@ -16,12 +16,12 @@
     "githubLink": "https://github.com/chaoskyme",
     "downloadPDFImageAlt": "下载PDF版",
     "downloadPDFText": "下载PDF版",
-    "pdfLink": "林天祥-应聘iOS开发工程师-3年开发.pdf",
-    "pdfName": "林天祥-应聘iOS开发工程师-3年开发"
+    "pdfLink": "林天祥-应聘iOS高级工程师-4年开发.pdf",
+    "pdfName": "林天祥-应聘iOS高级工程师-4年开发"
   },
   "header": {
     "name": "林天祥",
-    "title": "iOS 开发工程师",
+    "title": "iOS 高级工程师",
     "languageIcon": "cn.png"
   },
   "about": {
@@ -36,25 +36,15 @@
         "url": "https://github.com/chaoskyme",
         "icon": "fa-github"
       },
-      "weibo": {
-        "linkTitle": "微博",
-        "url": "http://weibo.com/1916538113",
-        "icon": "fa-weibo"
-      },
-      "qq": {
-        "linkTitle": "QQ",
-        "url": "http://wpa.qq.com/msgrd?v=3&uin=352135591&site=qq&menu=yes",
-        "icon": "fa-qq"
-      },
-      "v2ex": {
-        "linkTitle": "V2EX",
-        "url": "https://www.v2ex.com/member/error",
-        "icon": "fa-rocket"
+      "maimai": {
+        "linkTitle": "脉脉",
+        "url": "https://maimai.cn/contact/share/card?u=p44fewxpsu5a&share_channel=wxchat&from=singlemessage&isappinstalled=0",
+        "icon": "fa-at"
       }
     },
     "introduction": [
       "喜欢折腾的iOS程序猿，参与多款App开发",
-      "近3年专注iOS开发经验",
+      "近4年专注iOS开发经验",
       "良好的代码规范，注重实效",
       "熟悉敏捷开发，自动化持续集成"
     ],
@@ -91,9 +81,19 @@
   "employment": {
     "jobs": [
       {
+        "name": "成都果小美网络科技有限公司",
+        "position": "iOS Leader",
+        "year": "2017.10至今",
+        "description": [
+          "主导公司内部 App『如来神掌』的开发",
+          "完成果小美 iOS 的团队建设",
+          "团队内部技术分享（Fastlane、Weex）"
+        ]
+      },
+      {
         "name": "成都品果科技有限公司",
         "position": "iOS 开发工程师",
-        "year": "2017.3至今",
+        "year": "2017.3-2017.10",
         "description": [
           "参与 Camera360 相机侧重构",
           "开发大片滤镜和测试打包工具",
@@ -124,8 +124,7 @@
         "position": "C++工程师实习 (Qt) ",
         "year": "2013.9-2014.2",
         "description": [
-          "基于 Qt 和 CEF 的游戏盒子开发",
-          ""
+          "基于 Qt 和 CEF 的游戏盒子开发"
         ]
       }
     ]
@@ -146,11 +145,11 @@
               "rating": 4
             },
             {
-              "name": "Hybrid/React Native",
+              "name": "Hybrid/React Native/Weex",
               "rating": 3
             },
             {
-              "name": "逆向分析开发",
+              "name": "逆向工程开发",
               "rating": 3
             }
           ]
@@ -198,10 +197,35 @@
     "tooling": {
       "text": "常用工具",
       "children": ["Shell", "PGTool 工具链", "Git", "CocoaPods", "Charles", "Reveal", "Sketch", "Fastlane", "Hopper",  "Jenkins/Travis CI"]
+    },
+    "thirdparty": {
+      "text": "第三方服务",
+      "children": ["友盟", "Bugly", "Fabric", "LeanCloud", "蒲公英/Fir.im"]
     }
   },
   "project": {
     "col1": [
+      {
+        "icon": "fa-apple",
+        "name": "如来神掌",
+        "year": "2017.10-至今",
+        "library": ["RxSwift", "Weex", "Eureka", "Alamofire", "Moya"],
+        "description": [
+          "主导整个 App 的技术选型、架构和开发",
+          "使用 Weex 技术提高 iOS 和 Android 的开发效率提升50%",
+          "使用 Fastlane、Jenkins，实现打包自动化和不同渠道发布",
+          "开发 Debug 工具、线上反馈工具方便开发测试",
+          "使用 SwiftLint、OCLint、SwiftFormat 规范代码",
+          "使用 SwiftGen 自动生成项目资源的 Swift 代码，访问资源更安全"
+        ],
+        "links": [
+          {
+            "title": "App Store下载",
+            "icon": "fa-globe",
+            "url": "https://itunes.apple.com/us/app/果小美如来神掌/id1300007569?ls=1&mt=8"
+          }
+        ]
+      },
       {
         "icon": "fa-apple",
         "name": "Camera360",
@@ -210,8 +234,8 @@
         "description": [
           "参与8.5.0相机重构，负责UI和作图流程，优化App启动速度",
           "开发相机取景运营弹窗，滤镜和贴纸渗透率从5%提高到15%",
-          "开发大片滤镜，并开发在线调试工具和批量作图导出功能",
-          "开发 Unity3D 贴纸控件和功能，贴纸渗透率从28%提高到43%",
+          "负责开发大片滤镜，并开发在线调试工具和批量作图导出功能",
+          "开发Unity3D贴纸控件和功能，贴纸渗透率从28%提高到43%",
           "AppStore 摄影和录像类别排名从48上升到14"
         ],
         "links": [
@@ -229,9 +253,7 @@
         "library": ["AFN", "Masonry", "WebViewJavascriptBridge", "MJRefresh"],
         "description": [
           "克克女鞋移动购物App",
-          "Hybrid 混合开发",
-          "模块组件化",
-          "自定义视图模块"
+          "Hybrid 混合开发，模块组件化"
         ],
         "links": [
           {
@@ -248,9 +270,7 @@
         "library": ["AFN", "SDWebImage", "MJRefresh", "Masonry", "Ono", "POP"],
         "description": [
           "买卖生鲜食品的网上商城 App",
-          "WebService SOAP 数据处理",
-          "组件化推广",
-          "OC 与 JavaScript 交互"
+          "WebService SOAP 数据处理"
         ],
         "links": [
           {
@@ -267,8 +287,7 @@
         "library": ["AFN", "FMDB", "MBProgressHUD", "MJRefresh"],
         "description": [
           "通用电商模板",
-          "业务逻辑优化，实现组件化",
-          "分发测试"
+          "业务逻辑优化，实现组件化"
         ],
         "links": [
           {
@@ -349,8 +368,7 @@
             "description": [
               "壁纸类 App 应用",
               "UITableView视差效果",
-              "双UITableView布局",
-              "UITableView自动计算行高"
+              "双UITableView布局"
             ],
             "links": [
               {
