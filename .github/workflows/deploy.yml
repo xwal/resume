@@ -25,7 +25,6 @@ jobs:
       with:
         python-version: '3.x'
         architecture: 'x64'
-      - run: python my_script.py
     - name: prepare build environment
       env:
         GH_ACTION_DEPLOY_KEY: ${{secrets.GH_ACTION_DEPLOY_KEY}}
