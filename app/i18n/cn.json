@@ -16,12 +16,12 @@
     "githubLink": "https://github.com/chaoskyme",
     "downloadPDFImageAlt": "下载PDF版",
     "downloadPDFText": "下载PDF版",
-    "pdfLink": "林天祥-应聘iOS高级工程师-4年开发.pdf",
-    "pdfName": "林天祥-应聘iOS高级工程师-4年开发"
+    "pdfLink": "林天祥-应聘高级iOS开发工程师-5年开发.pdf",
+    "pdfName": "林天祥-应聘高级iOS开发工程师-5年开发"
   },
   "header": {
     "name": "林天祥",
-    "title": "iOS 高级工程师",
+    "title": "高级iOS开发工程师",
     "languageIcon": "cn.png"
   },
   "about": {
@@ -35,16 +35,11 @@
         "linkTitle": "GitHub",
         "url": "https://github.com/chaoskyme",
         "icon": "fa-github"
-      },
-      "maimai": {
-        "linkTitle": "脉脉",
-        "url": "https://maimai.cn/contact/share/card?u=p44fewxpsu5a&share_channel=wxchat&from=singlemessage&isappinstalled=0",
-        "icon": "fa-at"
       }
     },
     "introduction": [
       "喜欢折腾的iOS程序猿，参与多款App开发",
-      "近4年专注iOS开发经验",
+      "近5年专注iOS开发经验",
       "良好的代码规范，注重实效",
       "熟悉敏捷开发，自动化持续集成"
     ],
@@ -85,13 +80,13 @@
         "position": "iOS Leader",
         "year": "2017.10至今",
         "description": [
-          "主导公司内部 App『如来神掌』的开发",
-          "完成果小美 iOS 的团队建设",
-          "团队内部技术分享（Fastlane、Weex）"
+          "组建 iOS 团队，发展团队提升效率",
+          "主导如来神掌、宝贝仓、兵之宝、衣路通等App的开发",
+          "团队内部技术分享（Fastlane、Weex）和业务分享"
         ]
       },
       {
-        "name": "成都品果科技有限公司",
+        "name": "成都品果科技有限公司（Camera360）",
         "position": "iOS 开发工程师",
         "year": "2017.3-2017.10",
         "description": [
@@ -142,14 +137,14 @@
             },
             {
               "name": "Swift",
-              "rating": 4
+              "rating": 5
             },
             {
-              "name": "Hybrid/React Native/Weex",
+              "name": "Weex",
               "rating": 3
             },
             {
-              "name": "逆向工程开发",
+              "name": "iOS 逆向开发",
               "rating": 3
             }
           ]
@@ -172,19 +167,19 @@
           ]
         },
         {
-          "text": "后端（自动化脚本）",
+          "text": "脚本",
           "skills": [
-            {
-              "name": "Qt/C++",
-              "rating": 3
-            },
             {
               "name": "Shell",
               "rating": 3
             },
             {
+              "name": "Ruby",
+              "rating": 3
+            },
+            {
               "name": "Python",
-              "rating": 2
+              "rating": 3
             }
           ]
         }
@@ -192,7 +187,7 @@
     },
     "library": {
       "text": "常用类库",
-      "children": ["AFN/Alamofire", "POP/Spring", "Masonry/SnapKit", "RestKit", "YYKit", "JSPatch", "GCDSocket", "ReactiveCocoa"]
+      "children": ["RxSwift", "YYKit", "Texture", "Alamofire", "Kingfisher", "WCDB"]
     },
     "tooling": {
       "text": "常用工具",
