@@ -10,16 +10,22 @@ jobs:
 
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [10.x]
-
     steps:
     - uses: actions/checkout@v1
-    - name: Use Node.js ${{ matrix.node-version }}
+    - name: Setup Node.js
       uses: actions/setup-node@v1
       with:
-        node-version: ${{ matrix.node-version }}
+        node-version: '10.x'
+    - name: Setup Ruby
+      uses: actions/setup-ruby@v1
+      with:
+        ruby-version: '2.x'
+    - name: Setup Python
+      uses: actions/setup-python@v1
+      with:
+        python-version: '3.x'
+        architecture: 'x64'
+      - run: python my_script.py
     - name: prepare build environment
       env:
         GH_ACTION_DEPLOY_KEY: ${{secrets.GH_ACTION_DEPLOY_KEY}}
@@ -30,7 +36,6 @@ jobs:
         ssh-keyscan github.com >> ~/.ssh/known_hosts
         git config --global user.name 'chaosky'
         git config --global user.email 'chaosky.me@gmail.com'
-        rvm install 2.1.5
         npm install -g grunt-cli
         gem install compass
         pip install --user fpdf
