@@ -1,7 +1,7 @@
 MyResume [![Travis](https://travis-ci.org/chaoskyme/resume.svg)](https://travis-ci.org/chaoskyme/resume)
 ========
 
-<resume.chaosky.me>
+<resume.chaosky.tech>
 
 Theme by [Flatty Resume](http://amindiary.com/demo/flatty-cv/)
 

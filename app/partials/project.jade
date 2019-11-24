@@ -44,12 +44,4 @@ section#project
           .col-md-4
             +project-gen(project.col2)
           .col-md-4
-            .pro-wrapper
-              .head
-                .row
-                  .col-md-2
-                    i.fa.fa-fighter-jet
-                  .col-md-8
-                    h3= project.others.text
-              .body
-                +project-gen(project.others.repos)
+            +project-gen(project.others.repos)

@@ -82,15 +82,15 @@ def draw_func_project(pdf_instance, proj, left, top):
     pdf_instance.set_x(left)
     pdf_instance.set_font_size(font_size['text'] + 1)
     pdf_instance.set_text_color(*brown)
-    pdf_instance.cell(1, line_height['text'] - 1, proj['name'] + u' (' + proj['year'] + ')', ln=2)
+    pdf_instance.cell(1, line_height['text'], proj['name'] + u' (' + proj['year'] + ')', ln=2)
     pdf_instance.set_font_size(font_size['text'])
     pdf_instance.set_text_color(black)
-    pdf_instance.cell(1, line_height['text'], u'[ ' + u', '.join(proj['library']) + ' ]', ln=2)
+    pdf_instance.cell(1, line_height['text'] + 1, u'[ ' + u', '.join(proj['library']) + ' ]', ln=2)
     for desc in proj['description']:
-        pdf_instance.set_x(left)
         pdf_instance.ellipse(pdf_instance.get_x() + 1, pdf_instance.get_y() + 1.5, ellipse['size'], ellipse['size'], 'F')
         pdf_instance.cell(ellipse['margin'])
         pdf_instance.cell(1, line_height['text'], desc, ln=2)
+        pdf_instance.set_x(left)
     pdf_instance.ln(page_size['section_margin'])
 
 # generate pdf for every language
@@ -190,7 +190,6 @@ for lang in all_langs:
                 pdf.cell(1, line_height['text'], item['textAfter'], ln=2)
             else:
                 pdf.cell(1, line_height['text'], item['text'], ln=2)
-        pdf.ln(4)
     pdf.ln(page_size['section_margin'])
     # employment section
     pdf.set_x(page_size['left'])
@@ -219,11 +218,6 @@ for lang in all_langs:
     pdf.ellipse(pdf.get_x(), pdf.get_y() + 1.5, ellipse['size'], ellipse['size'], 'F')
     pdf.cell(ellipse['margin'])
     pdf.cell(1, line_height['text'] - 1, data['skill']['tooling']['text'] + u': ' + ', '.join(data['skill']['tooling']['children']), ln=2)
-    pdf.ln(page_size['section_margin'])
-    pdf.set_x(page_size['left'] + page_size['section_indent'])
-    pdf.ellipse(pdf.get_x(), pdf.get_y() + 1.5, ellipse['size'], ellipse['size'], 'F')
-    pdf.cell(ellipse['margin'])
-    pdf.cell(1, line_height['text'] - 1, data['skill']['thirdparty']['text'] + u': ' + ', '.join(data['skill']['thirdparty']['children']), ln=2)
     pdf.ln(page_size['section_margin'])
     # project section
     pdf.set_x(page_size['left'])

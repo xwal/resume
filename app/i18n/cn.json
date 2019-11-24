@@ -9,26 +9,25 @@
     "education": "教育经历",
     "employment": "工作经历",
     "skill": "技能",
-    "project": "项目经历",
-    "life": "生活"
+    "project": "项目经历"
   },
   "badge": {
     "githubLink": "https://github.com/chaoskyme",
     "downloadPDFImageAlt": "下载PDF版",
     "downloadPDFText": "下载PDF版",
-    "pdfLink": "林天祥-应聘高级iOS开发工程师-5年开发.pdf",
-    "pdfName": "林天祥-应聘高级iOS开发工程师-5年开发"
+    "pdfLink": "林天祥-应聘 iOS Leader-6年开发.pdf",
+    "pdfName": "林天祥-应聘 iOS Leader-6年开发"
   },
   "header": {
     "name": "林天祥",
-    "title": "高级iOS开发工程师",
+    "title": "iOS Leader",
     "languageIcon": "cn.png"
   },
   "about": {
     "socials": {
       "blog": {
         "linkTitle": "个人博客",
-        "url": "http://chaosky.me",
+        "url": "http://chaosky.tech",
         "icon": "fa-rss"
       },
       "github": {
@@ -39,7 +38,7 @@
     },
     "introduction": [
       "喜欢折腾的iOS程序猿，参与多款App开发",
-      "近5年专注iOS开发经验",
+      "近5年专注iOS开发经验，2年 iOS 团队管理",
       "良好的代码规范，注重实效",
       "熟悉敏捷开发，自动化持续集成"
     ],
@@ -78,28 +77,30 @@
       {
         "name": "成都果小美网络科技有限公司",
         "position": "iOS Leader",
-        "year": "2017.10至今",
+        "year": "2017.10-至今",
         "description": [
-          "组建 iOS 团队，发展团队提升效率",
-          "主导如来神掌、宝贝仓、兵之宝、衣路通等App的开发",
-          "团队内部技术分享（Fastlane、Weex）和业务分享"
+          "iOS 团队建设，培养团队技术能力，及日常管理任务",
+          "主导 iOS App 产品的技术选型、架构和开发",
+          "主导开发如来神掌、宝贝仓、兵之宝、衣路通、拍立播等",
+          "团队内部技术分享（Fastlane、Weex、Flutter）",
+          "构建工具链体系，搭建 CI/CD 流水线"
         ]
       },
       {
         "name": "成都品果科技有限公司（Camera360）",
         "position": "iOS 开发工程师",
-        "year": "2017.3-2017.10",
+        "year": "2017.03-2017.10",
         "description": [
           "参与 Camera360 相机侧重构",
           "开发大片滤镜和测试打包工具",
           "开发新版 Unity 3D 贴纸控件和功能",
-          "公司内部 Swift 培训"
+          "参与制定 Swift 内部培训"
         ]
       },
       {
         "name": "北京千锋互联科技有限公司成都分公司",
         "position": "iOS 培训讲师",
-        "year": "2015.8-2017.3",
+        "year": "2015.08-2017.03",
         "description": [
           "从事 iOS 培训教学",
           "参与制定 Swift 培训课程体系"
@@ -108,7 +109,7 @@
       {
         "name": "成都市亿合科技有限公司",
         "position": "软件工程师（Qt && iOS）",
-        "year": "2014.4-2015.8",
+        "year": "2014.04-2015.08",
         "description": [
           "基于 Qt 和 Firefox XULRunner 的 ERP 软件开发维护",
           "开发上架多款 iOS APP（克女郎、农厨商城、品界等）"
@@ -117,7 +118,7 @@
       {
         "name": "北京智明星通科技有限公司",
         "position": "C++工程师实习 (Qt) ",
-        "year": "2013.9-2014.2",
+        "year": "2013.09-2014.02",
         "description": [
           "基于 Qt 和 CEF 的游戏盒子开发"
         ]
@@ -132,15 +133,15 @@
           "text": "iOS",
           "skills": [
             {
-              "name": "Objective-C",
-              "rating": 5
-            },
-            {
               "name": "Swift",
               "rating": 5
             },
             {
-              "name": "Weex",
+              "name": "Objective-C",
+              "rating": 4
+            },
+            {
+              "name": "Flutter",
               "rating": 3
             },
             {
@@ -153,24 +154,24 @@
           "text": "前端",
           "skills": [
             {
-              "name": "JavaScript",
+              "name": "Vue",
               "rating": 3
             },
             {
-              "name": "HTML5",
-              "rating": 2
+              "name": "Node.js",
+              "rating": 3
             },
             {
-              "name": "CSS",
-              "rating": 2
+              "name": "H5",
+              "rating": 3
             }
           ]
         },
         {
-          "text": "脚本",
+          "text": "后端",
           "skills": [
             {
-              "name": "Shell",
+              "name": "Node.js",
               "rating": 3
             },
             {
@@ -187,44 +188,107 @@
     },
     "library": {
       "text": "常用类库",
-      "children": ["RxSwift", "YYKit", "Texture", "Alamofire", "Kingfisher", "WCDB"]
+      "children": ["RxSwift", "SwifterSwift", "ObjectMapper", "PromiseKit", "Alamofire", "Moya", "Kingfisher", "WCDB", "SnapKit", "Texture"]
     },
     "tooling": {
       "text": "常用工具",
-      "children": ["Shell", "PGTool 工具链", "Git", "CocoaPods", "Charles", "Reveal", "Sketch", "Fastlane", "Hopper",  "Jenkins/Travis CI"]
-    },
-    "thirdparty": {
-      "text": "第三方服务",
-      "children": ["友盟", "Bugly", "Fabric", "LeanCloud", "蒲公英/Fir.im"]
+      "children": ["Ruby/Python/Shell", "Git", "CocoaPods", "Charles", "Reveal", "Fastlane", "Hopper",  "Jenkins"]
     }
   },
   "project": {
     "col1": [
       {
-        "icon": "fa-apple",
-        "name": "如来神掌",
+        "icon": "fa-server",
+        "name": "工具链体系",
         "year": "2017.10-至今",
-        "library": ["RxSwift", "Weex", "Eureka", "Alamofire", "Moya"],
+        "library": ["GitLab", "Fastlane", "Jenkins", "Node.js/Vue", "Ruby", "Python"],
         "description": [
-          "主导整个 App 的技术选型、架构和开发",
-          "使用 Weex 技术提高 iOS 和 Android 的开发效率提升50%",
-          "使用 Fastlane、Jenkins，实现打包自动化和不同渠道发布",
-          "开发 Debug 工具、线上反馈工具方便开发测试",
-          "使用 SwiftLint、OCLint、SwiftFormat 规范代码",
-          "使用 SwiftGen 自动生成项目资源的 Swift 代码，访问资源更安全"
+          "使用 GitLab、Fastlane、Jenkins，搭建 CI/CD 流水线",
+          "自建 App 分发平台、使用 Flutter 开发工具链 App",
+          "使用 Ruby、Fastlane 库开发 App Store 监控",
+          "使用 webhook 接口推送版本更新和 App Store 状态更新",
+          "开发 Debug 工具、线上反馈工具方便开发测试"
         ],
         "links": [
           {
-            "title": "App Store下载",
+            "title": "发布平台",
             "icon": "fa-globe",
-            "url": "https://itunes.apple.com/us/app/果小美如来神掌/id1300007569?ls=1&mt=8"
+            "url": "https://fabu.guoxiaomei.com"
           }
         ]
       },
       {
         "icon": "fa-apple",
+        "name": "宝贝仓",
+        "year": "2018.04-至今",
+        "library": ["RxSwift", "Moya", "URLNavigator", "PromiseKit", "Texture"],
+        "description": [
+          "采用S2B2C模式，为品牌厂商和职业买手搭建交易平台",
+          "集成 DoraemonKit 并开发一系列调试工具",
+          "使用 SwiftLint、OCLint、SwiftFormat 规范代码",
+          "使用 SwiftGen、Sourcery 自动生成 Swift 代码访问资源"
+        ],
+        "links": [
+          {
+            "title": "App Store下载",
+            "icon": "fa-globe",
+            "url": "https://apps.apple.com/cn/app/id1385358983"
+          }
+        ]
+      },
+      {
+        "icon": "fa-apple",
+        "name": "衣路通",
+        "year": "2018.11-至今",
+        "library": ["RxSwift", "SwifterSwift", "ObjectMapper", "SnapKit", "Flutter"],
+        "description": [
+          "供应链平台，为供货商和批发商提供交易平台",
+          "负责多个功能模块的开发",
+          "负责调研 Flutter 技术，将 Flutter 技术应用到项目开发中"
+        ],
+        "links": [
+          {
+            "title": "App Store下载",
+            "icon": "fa-globe",
+            "url": "https://apps.apple.com/cn/app/id1445971808"
+          }
+        ]
+      },
+      {
+        "icon": "fa-apple",
+        "name": "拍立播",
+        "year": "2019.03-至今",
+        "library": ["RxSwift", "URLNavigator", "MonkeyKing", "Alamofire", "Moya"],
+        "description": [
+          "辅助社交平台卖货的销售工具，提升实拍播货效率",
+          "使用 WebView 混合开发，实现快速迭代开发",
+          "基于 WKWebView 构建基础访问功能服务"
+        ],
+        "links": [
+          {
+            "title": "App Store下载",
+            "icon": "fa-globe",
+            "url": "https://apps.apple.com/cn/app/id1460948566"
+          }
+        ]
+      },
+      {
+        "icon": "fa-apple",
+        "name": "如来神掌（已下架）",
+        "year": "2017.10-2018.04",
+        "library": ["RxSwift", "Weex", "Eureka", "Alamofire", "Moya"],
+        "description": [
+          "货柜在线签单CRM系统",
+          "使用 Weex 技术提高 iOS 和 Android 的开发效率提升50%"
+        ],
+        "links": []
+      }
+    ],
+    "col2": [
+      {
+        "icon": "fa-apple",
         "name": "Camera360",
-        "year": "2017.3-至今",
+        "year": "2017.03-2017.10",
         "library": ["内部封装库", "ReactiveCocoa", "YYKit", "ZipArchive"],
         "description": [
           "参与8.5.0相机重构，负责UI和作图流程，优化App启动速度",
@@ -237,14 +301,14 @@
           {
             "title": "App Store下载",
             "icon": "fa-globe",
-            "url": "https://itunes.apple.com/cn/app/相机360-自拍达人必备的美颜神器/id443354861?mt=8"
+            "url": "https://itunes.apple.com/cn/app/id443354861?mt=8"
           }
         ]
       },
       {
         "icon": "fa-apple",
         "name": "克女郎",
-        "year": "2015.6-2015.8",
+        "year": "2015.06-2015.08",
         "library": ["AFN", "Masonry", "WebViewJavascriptBridge", "MJRefresh"],
         "description": [
           "克克女鞋移动购物App",
@@ -308,9 +372,7 @@
             "url": "https://itunes.apple.com/cn/app/pin-jie/id964438759?mt=8"
           }
         ]
-      }
-    ],
-    "col2": [
+      },
       {
         "icon": "fa-desktop",
         "name": "赶集网小区数据爬虫",
@@ -374,35 +436,12 @@
               {
                 "title": "项目介绍",
                 "icon": "fa-globe",
-                "url": "http://chaosky.me/workspace/ngp"
+                "url": "http://chaosky.tech/workspace/ngp"
               }
             ]
           }
       ]
     }
-  },
-  "life": {
-    "location": {
-      "lat": 30.741715,
-      "lng": 103.981096
-    },
-    "photos": [
-      {
-        "src": "breakfast.jpg",
-        "alt": "Breakfast",
-        "text": "爱心早餐"
-      },
-      {
-        "src": "bipenggou.jpg",
-        "alt": "旅游",
-        "text": "毕棚沟"
-      },
-      {
-        "src": "gold.jpg",
-        "alt": "太阳神",
-        "text": "金沙遗址博物馆"
-      }
-    ]
   },
   "pdf": {
     "fonts": {
@@ -419,7 +458,7 @@
     },
     "online": {
       "text": "在线版: ",
-      "url": "resume.chaosky.me"
+      "url": "resume.chaosky.tech"
     },
     "github": {
       "text": "更多项目请查看我的GitHub: "
