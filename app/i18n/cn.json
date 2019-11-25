@@ -79,10 +79,9 @@
         "position": "iOS Leader",
         "year": "2017.10-至今",
         "description": [
-          "iOS 团队建设，培养团队技术能力，及日常管理任务",
-          "主导 iOS App 产品的技术选型、架构和开发",
-          "主导开发如来神掌、宝贝仓、兵之宝、衣路通、拍立播等",
-          "团队内部技术分享（Fastlane、Weex、Flutter）",
+          "负责 iOS 团队建设，带领一个4人小组开发了4个App",
+          "主导 iOS 产品的技术选型、架构和开发",
+          "开展团队内部技术分享(Fastlane、Flutter)和业务分享",
           "构建工具链体系，搭建 CI/CD 流水线"
         ]
       },
@@ -223,10 +222,11 @@
         "year": "2018.04-至今",
         "library": ["RxSwift", "Moya", "URLNavigator", "PromiseKit", "Texture"],
         "description": [
-          "采用S2B2C模式，为品牌厂商和职业买手搭建交易平台",
-          "集成 DoraemonKit 并开发一系列调试工具",
-          "使用 SwiftLint、OCLint、SwiftFormat 规范代码",
-          "使用 SwiftGen、Sourcery 自动生成 Swift 代码访问资源"
+          "完成 App 技术选型和架构，实现 App 的分层架构的开发工作",
+          "通过开发一系列调试工具，有效提升开发调试效率",
+          "使用 SwiftLint、OCLint、SwiftFormat 规范代码质量",
+          "使用 SwiftGen、Sourcery 自动生成资源代码，优化资源访问",
+          "6个月GMV从0增长到1亿，此后1年GMV平均在800万左右"
         ],
         "links": [
           {
@@ -242,9 +242,10 @@
         "year": "2018.11-至今",
         "library": ["RxSwift", "SwifterSwift", "ObjectMapper", "SnapKit", "Flutter"],
         "description": [
-          "供应链平台，为供货商和批发商提供交易平台",
-          "负责多个功能模块的开发",
-          "负责调研 Flutter 技术，将 Flutter 技术应用到项目开发中"
+          "围绕 RxSwift/Moya/WCDB 技术栈构建MVVM应用",
+          "负责商圈、消息中心、我的、商家管理等模块的开发工作",
+          "调研 Flutter 技术并应用到项目中，提升开发效率30%",
+          "开展 Flutter 内部分享，提升团队开发效率"
         ],
         "links": [
           {
@@ -260,9 +261,7 @@
         "year": "2019.03-至今",
         "library": ["RxSwift", "URLNavigator", "MonkeyKing", "Alamofire", "Moya"],
         "description": [
-          "辅助社交平台卖货的销售工具，提升实拍播货效率",
-          "使用 WebView 混合开发，实现快速迭代开发",
-          "基于 WKWebView 构建基础访问功能服务"
+          "基于 WKWebView 构建基础访问功能服务，实现快速迭代开发"
         ],
         "links": [
           {
@@ -274,7 +273,7 @@
       },
       {
         "icon": "fa-apple",
-        "name": "如来神掌（已下架）",
+        "name": "如来神掌",
         "year": "2017.10-2018.04",
         "library": ["RxSwift", "Weex", "Eureka", "Alamofire", "Moya"],
         "description": [
@@ -282,9 +281,7 @@
           "使用 Weex 技术提高 iOS 和 Android 的开发效率提升50%"
         ],
         "links": []
-      }
-    ],
-    "col2": [
+      },
       {
         "icon": "fa-apple",
         "name": "Camera360",
@@ -304,7 +301,9 @@
             "url": "https://itunes.apple.com/cn/app/id443354861?mt=8"
           }
         ]
-      },
+      }
+    ],
+    "col2": [
       {
         "icon": "fa-apple",
         "name": "克女郎",
