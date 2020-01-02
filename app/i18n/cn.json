@@ -15,19 +15,19 @@
     "githubLink": "https://github.com/chaoskyme",
     "downloadPDFImageAlt": "下载PDF版",
     "downloadPDFText": "下载PDF版",
-    "pdfLink": "林天祥-应聘 iOS Leader-6年开发.pdf",
-    "pdfName": "林天祥-应聘 iOS Leader-6年开发"
+    "pdfLink": "林天祥-应聘 iOS 高级工程师-5年开发.pdf",
+    "pdfName": "林天祥-应聘 iOS 高级工程师-5年开发"
   },
   "header": {
     "name": "林天祥",
-    "title": "iOS Leader",
+    "title": "iOS Developer",
     "languageIcon": "cn.png"
   },
   "about": {
     "socials": {
       "blog": {
         "linkTitle": "个人博客",
-        "url": "http://chaosky.tech",
+        "url": "http://blog.chaosky.xyz",
         "icon": "fa-rss"
       },
       "github": {
@@ -37,10 +37,12 @@
       }
     },
     "introduction": [
-      "喜欢折腾的iOS程序猿，参与多款App开发",
-      "近5年专注iOS开发经验，2年 iOS 团队管理",
-      "良好的代码规范，注重实效",
-      "熟悉敏捷开发，自动化持续集成"
+      "喜欢钻研的iOS开发者，参与多款App开发",
+      "近5年iOS开发经验，2年技术团队管理，2年iOS讲师经验",
+      "良好的代码规范，注重实用和效率",
+      "熟悉瀑布流式和敏捷迭代式开发",
+      "丰富的自动化持续集成和持续部署经验",
+      "擅长使用和开发工具链，提升开发效率"
     ],
     "location": "四川 ● 成都",
     "phone": "(+86) 18981988677",
@@ -79,9 +81,9 @@
         "position": "iOS Leader",
         "year": "2017.10-至今",
         "description": [
-          "负责 iOS 团队建设，带领一个4人小组开发了4个App",
+          "负责 iOS 团队建设，带领5人小组开发了4个App",
           "主导 iOS 产品的技术选型、架构和开发",
-          "开展团队内部技术分享(Fastlane、Flutter)和业务分享",
+          "开展团队内部技术分享(Fastlane、Weex、Flutter)",
           "构建工具链体系，搭建 CI/CD 流水线"
         ]
       },
@@ -90,7 +92,7 @@
         "position": "iOS 开发工程师",
         "year": "2017.03-2017.10",
         "description": [
-          "参与 Camera360 相机侧重构",
+          "参与 Camera360 相机侧开发",
           "开发大片滤镜和测试打包工具",
           "开发新版 Unity 3D 贴纸控件和功能",
           "参与制定 Swift 内部培训"
@@ -111,15 +113,7 @@
         "year": "2014.04-2015.08",
         "description": [
           "基于 Qt 和 Firefox XULRunner 的 ERP 软件开发维护",
-          "开发上架多款 iOS APP（克女郎、农厨商城、品界等）"
-        ]
-      },
-      {
-        "name": "北京智明星通科技有限公司",
-        "position": "C++工程师实习 (Qt) ",
-        "year": "2013.09-2014.02",
-        "description": [
-          "基于 Qt 和 CEF 的游戏盒子开发"
+          "开发上架4款 iOS App"
         ]
       }
     ]
@@ -191,22 +185,22 @@
     },
     "tooling": {
       "text": "常用工具",
-      "children": ["Ruby/Python/Shell", "Git", "CocoaPods", "Charles", "Reveal", "Fastlane", "Hopper",  "Jenkins"]
+      "children": ["Shell", "Git", "CocoaPods", "Charles", "Reveal", "Fastlane", "Hopper",  "Jenkins", "MachOView"]
     }
   },
   "project": {
     "col1": [
       {
         "icon": "fa-server",
-        "name": "工具链体系",
+        "name": "工具链平台",
         "year": "2017.10-至今",
-        "library": ["GitLab", "Fastlane", "Jenkins", "Node.js/Vue", "Ruby", "Python"],
+        "library": ["GitLab", "Fastlane", "Jenkins", "Node.js/Vue", "Ruby", "Python", "Flutter"],
         "description": [
-          "使用 GitLab、Fastlane、Jenkins，搭建 CI/CD 流水线",
+          "基于 GitLab、Fastlane、Jenkins，搭建 CI/CD 流水线",
           "自建 App 分发平台、使用 Flutter 开发工具链 App",
-          "使用 Ruby、Fastlane 库开发 App Store 监控",
-          "使用 webhook 接口推送版本更新和 App Store 状态更新",
-          "开发 Debug 工具、线上反馈工具方便开发测试"
+          "使用 Ruby、Fastlane 库开发 App Store 监控脚本",
+          "对接钉钉机器人推送打包版本更新和 App Store 状态更新提醒",
+          "开发 Debug 工具和线上反馈工具方便开发测试"
         ],
         "links": [
           {
@@ -220,13 +214,14 @@
         "icon": "fa-apple",
         "name": "宝贝仓",
         "year": "2018.04-至今",
-        "library": ["RxSwift", "Moya", "URLNavigator", "PromiseKit", "Texture"],
+        "library": ["RxSwift", "Moya", "URLNavigator", "PromiseKit", "Texture", "YYKit", "CryptoSwift", "MonkeyKing", "SnapKit", "WCDB", "Kingfisher", "Masonry"],
         "description": [
-          "完成 App 技术选型和架构，实现 App 的分层架构的开发工作",
-          "通过开发一系列调试工具，有效提升开发调试效率",
-          "使用 SwiftLint、OCLint、SwiftFormat 规范代码质量",
-          "使用 SwiftGen、Sourcery 自动生成资源代码，优化资源访问",
-          "6个月GMV从0增长到1亿，此后1年GMV平均在800万左右"
+          "宝贝仓是一款面向职业买手的购物分销 App",
+          "主要负责 App 技术选型和软件架构",
+          "负责消息中心、个人中心、广告页等模块的开发",
+          "开发集成一系列调试工具（App构建信息、环境切换、本地数据清除、性能检测、视觉工具），有效提升开发效率；\n使用 SwiftLint、OCLint、SwiftFormat 规范代码质量；\n使用 SwiftGen、Sourcery 自动生成资源代码，以更安全方便的方式访问",
+          "实现 Pods 的二进制化，打包时长从25分钟优化到12分钟",
+          "6个月实现GMV从0增长到1亿，截止2019.12 GMV 2.9亿"
         ],
         "links": [
           {
@@ -238,14 +233,14 @@
       },
       {
         "icon": "fa-apple",
-        "name": "衣路通",
+        "name": "淘呗商城",
         "year": "2018.11-至今",
-        "library": ["RxSwift", "SwifterSwift", "ObjectMapper", "SnapKit", "Flutter"],
+        "library": ["RxSwift", "SwifterSwift", "URLNavigator", "CryptoSwift", "MonkeyKing", "PromiseKit", "ObjectMapper", "SnapKit", "Texture", "Alamofire", "Kingfisher", "Moya", "Flutter"],
         "description": [
-          "围绕 RxSwift/Moya/WCDB 技术栈构建MVVM应用",
-          "负责商圈、消息中心、我的、商家管理等模块的开发工作",
-          "调研 Flutter 技术并应用到项目中，提升开发效率30%",
-          "开展 Flutter 内部分享，提升团队开发效率"
+          "淘呗商城是一款为批发商、分销商等买家提供在线交易，为商家提供发布商品、商品管理、直播对账、售后管理的应用",
+          "搭建基于 RxSwift/Moya/WCDB 技术栈的MVVM架构",
+          "负责商圈、消息中心、个人中心、商家管理等模块的开发工作",
+          "调研 Flutter 技术，探索跨平台开发的解决方案，并实际应用到项目中，实现iOS和Android开发效率提升30%"
         ],
         "links": [
           {
@@ -261,7 +256,9 @@
         "year": "2019.03-至今",
         "library": ["RxSwift", "URLNavigator", "MonkeyKing", "Alamofire", "Moya"],
         "description": [
-          "基于 WKWebView 构建基础访问功能服务，实现快速迭代开发"
+          "拍立播是一款辅助社交平台卖货的销售工具",
+          "搭建项目框架",
+          "搭建基于 WKWebView 的Web基础服务，实现快速对接H5页面"
         ],
         "links": [
           {
@@ -275,9 +272,10 @@
         "icon": "fa-apple",
         "name": "如来神掌",
         "year": "2017.10-2018.04",
-        "library": ["RxSwift", "Weex", "Eureka", "Alamofire", "Moya"],
+        "library": ["RxSwift", "Weex", "Eureka", "Alamofire", "Moya", "YYKit", "SnapKit", "TagListView"],
         "description": [
-          "货柜在线签单CRM系统",
+          "如来神掌是一款服务于BD的货柜在线签单CRM系统 App",
+          "负责BD工具（公海、私海、签单等）模块的开发",
           "使用 Weex 技术提高 iOS 和 Android 的开发效率提升50%"
         ],
         "links": []
@@ -418,13 +416,14 @@
       "repos": [
           {
             "icon": "fa-apple",
-            "name": "世界地理画报",
+            "name": "世界画报（个人作品）",
             "year": "2016.11-至今",
-            "library": ["Alamofire", "Kingfisher", "SnapKit", "DateTools"],
+            "library": ["RxSwift", "Alamofire", "Kingfisher", "SnapKit", "DateTools", "Moya", "SwiftyJSON", "ZCAnimatedLabel", "ObjectMapper"],
             "description": [
-              "壁纸类 App 应用",
-              "UITableView视差效果",
-              "双UITableView布局"
+              "世界画报是一款壁纸类 App 应用，集合了世界地理杂志、最美壁纸、unsplash等数据来源的壁纸数据",
+              "实现UITableView视差效果，优化壁纸浏览体验",
+              "使用 CoreMotion 动态跟踪用户姿态，动态显示大图区域",
+              "集成百度语音TTS对壁纸描述进行朗读"
             ],
             "links": [
               {
@@ -435,7 +434,7 @@
               {
                 "title": "项目介绍",
                 "icon": "fa-globe",
-                "url": "http://chaosky.tech/workspace/ngp"
+                "url": "http://blog.chaosky.xyz/workspace/ngp"
               }
             ]
           }
@@ -457,7 +456,7 @@
     },
     "online": {
       "text": "在线版: ",
-      "url": "resume.chaosky.tech"
+      "url": "resume.chaosky.xyz"
     },
     "github": {
       "text": "更多项目请查看我的GitHub: "
