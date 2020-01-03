@@ -15,8 +15,8 @@
     "githubLink": "https://github.com/chaoskyme",
     "downloadPDFImageAlt": "下载PDF版",
     "downloadPDFText": "下载PDF版",
-    "pdfLink": "林天祥-应聘 iOS 高级工程师-5年开发.pdf",
-    "pdfName": "林天祥-应聘 iOS 高级工程师-5年开发"
+    "pdfLink": "林天祥-应聘 iOS 高级工程师-6年开发.pdf",
+    "pdfName": "林天祥-应聘 iOS 高级工程师-6年开发"
   },
   "header": {
     "name": "林天祥",
@@ -38,7 +38,7 @@
     },
     "introduction": [
       "喜欢钻研的iOS开发者，参与多款App开发",
-      "近5年iOS开发经验，2年技术团队管理，2年iOS讲师经验",
+      "5年iOS开发经验，2年技术团队管理，2年iOS讲师经验",
       "良好的代码规范，注重实用和效率",
       "熟悉瀑布流式和敏捷迭代式开发",
       "丰富的自动化持续集成和持续部署经验",
@@ -84,7 +84,7 @@
           "负责 iOS 团队建设，带领5人小组开发了4款App",
           "主导 iOS 产品的技术选型、架构和开发",
           "开展团队内部技术分享(Fastlane、Weex、Flutter)",
-          "构建工具链体系，搭建 CI/CD 流水线"
+          "构建无线端工具链平台，搭建 CI/CD 流水线"
         ]
       },
       {
@@ -298,6 +298,17 @@
             "icon": "fa-globe",
             "url": "https://itunes.apple.com/cn/app/id443354861?mt=8"
           }
+        ]
+      },
+      {
+        "icon": "fa-apple",
+        "name": "iOS 培训教学",
+        "year": "2015.08-2017.03",
+        "library": ["CocoaPods", "SDWebImage", "Masonry"],
+        "description": [
+          "iOS 培训课程教学，包括编程语言（Objective-C、Swift）、UI、网络、项目阶段",
+          "指导学生项目，教授开发流程、软件构建方法及最佳实践",
+          "前沿技术及难点技术教学，如 蓝牙开发、动态更新、开发工具、iOS 支付、Runtime、Socket、XMPP等技术"
         ]
       }
     ],
