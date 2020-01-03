@@ -81,7 +81,7 @@
         "position": "iOS Leader",
         "year": "2017.10-至今",
         "description": [
-          "负责 iOS 团队建设，带领5人小组开发了4个App",
+          "负责 iOS 团队建设，带领5人小组开发了4款App",
           "主导 iOS 产品的技术选型、架构和开发",
           "开展团队内部技术分享(Fastlane、Weex、Flutter)",
           "构建工具链体系，搭建 CI/CD 流水线"
@@ -113,7 +113,7 @@
         "year": "2014.04-2015.08",
         "description": [
           "基于 Qt 和 Firefox XULRunner 的 ERP 软件开发维护",
-          "开发上架4款 iOS App"
+          "开发上架4款（品界、亿合云商、农厨商城、克女郎）App"
         ]
       }
     ]
@@ -131,7 +131,7 @@
             },
             {
               "name": "Objective-C",
-              "rating": 4
+              "rating": 5
             },
             {
               "name": "Flutter",
@@ -192,10 +192,11 @@
     "col1": [
       {
         "icon": "fa-server",
-        "name": "工具链平台",
+        "name": "无线工具链平台",
         "year": "2017.10-至今",
         "library": ["GitLab", "Fastlane", "Jenkins", "Node.js/Vue", "Ruby", "Python", "Flutter"],
         "description": [
+          "无线工具链平台是一套服务于无线开发、测试、产品的工具链体系",
           "基于 GitLab、Fastlane、Jenkins，搭建 CI/CD 流水线",
           "自建 App 分发平台、使用 Flutter 开发工具链 App",
           "使用 Ruby、Fastlane 库开发 App Store 监控脚本",
@@ -218,7 +219,6 @@
         "description": [
           "宝贝仓是一款面向职业买手的购物分销 App",
           "主要负责 App 技术选型和软件架构",
-          "负责消息中心、个人中心、广告页等模块的开发",
           "开发集成一系列调试工具（App构建信息、环境切换、本地数据清除、性能检测、视觉工具），有效提升开发效率；\n使用 SwiftLint、OCLint、SwiftFormat 规范代码质量；\n使用 SwiftGen、Sourcery 自动生成资源代码，以更安全方便的方式访问",
           "实现 Pods 的二进制化，打包时长从25分钟优化到12分钟",
           "6个月实现GMV从0增长到1亿，截止2019.12 GMV 2.9亿"
@@ -308,15 +308,7 @@
         "year": "2015.06-2015.08",
         "library": ["AFN", "Masonry", "WebViewJavascriptBridge", "MJRefresh"],
         "description": [
-          "克克女鞋移动购物App",
-          "Hybrid 混合开发，模块组件化"
-        ],
-        "links": [
-          {
-            "title": "App Store下载",
-            "icon": "fa-globe",
-            "url": "https://itunes.apple.com/cn/app/ke-nu-lang/id1050199870?mt=8"
-          }
+          "克女郎是一款为克克女鞋开发的移动购物App"
         ]
       },
       {
@@ -325,15 +317,7 @@
         "year": "2015.5-2015.7",
         "library": ["AFN", "SDWebImage", "MJRefresh", "Masonry", "Ono", "POP"],
         "description": [
-          "买卖生鲜食品的网上商城 App",
-          "WebService SOAP 数据处理"
-        ],
-        "links": [
-          {
-            "title": "App Store下载",
-            "icon": "fa-globe",
-            "url": "https://itunes.apple.com/cn/app/nong-chu-shang-cheng/id1009189107?mt=8"
-          }
+          "农厨商城是一款买卖生鲜食品的网上商城 App"
         ]
       },
       {
@@ -342,15 +326,7 @@
         "year": "2015.01-2015.04",
         "library": ["AFN", "FMDB", "MBProgressHUD", "MJRefresh"],
         "description": [
-          "通用电商模板",
-          "业务逻辑优化，实现组件化"
-        ],
-        "links": [
-          {
-            "title": "App Store下载",
-            "icon": "fa-globe",
-            "url": "https://itunes.apple.com/cn/app/yi-he-yun-shang/id982161173?ls=1&mt=8"
-          }
+          "亿合云商是一款通用电商模板 App，为复杂电商场景下的商家提供方便快捷的App"
         ]
       },
       {
@@ -359,35 +335,7 @@
         "year": "2014.08-2015.03",
         "library": ["AFN", "FMDB", "MBProgressHUD", "MJRefresh"],
         "description": [
-          "女装批发的网上商城 App",
-          "单元测试，bug 修复、项目维护"
-        ],
-        "links": [
-          {
-            "title": "App Store下载",
-            "icon": "fa-globe",
-            "url": "https://itunes.apple.com/cn/app/pin-jie/id964438759?mt=8"
-          }
-        ]
-      },
-      {
-        "icon": "fa-desktop",
-        "name": "赶集网小区数据爬虫",
-        "year": "2014.12-2015.01",
-        "library": ["Qt", "QtWebKit", "QODBC"],
-        "description": [
-          "抓取赶集网总共50多万条小区数据",
-          "基于 Qt 爬取网页，提取结构性数据，存储在数据库中"
-        ]
-      },
-      {
-        "icon": "fa-desktop",
-        "name": "房产中介管理系统桌面应用",
-        "year": "2014.04-2014.11",
-        "library": ["XULRunner", "XUL", "XPCOM"],
-        "description": [
-          "基于 XULRunner 框架开发",
-          "网络广播实现客户端限制启动"
+          "品界是一款女装批发的网上商城 App"
         ]
       },
       {
@@ -396,18 +344,21 @@
         "year": "2013.11-2014.02",
         "library": ["Qt", "CEF"],
         "description": [
-          "利用 Qt 和 CEF 框架集成开发游戏盒子",
-          "优化网页加载速度（100ms -> 50ms）"
+          "337游戏盒子是一款基于 Qt 和 CEF 技术开发的集合多款网页游戏的PC应用",
+          "独立负责游戏盒子的开发工作",
+          "项目开发期间通过 Basecamp 进行项目管理",
+          "QtWebView 加载网页游戏时有明显的卡顿和占用内存过高现象。尝试对 QtWebView 进行优化效果不明显，后采用 Chromium 内核加载游戏，性能显著提升。卡顿现象消失，内存降低为原来的 %40，加载速度从100ms优化到50ms"
         ]
       },
       {
         "icon": "fa-desktop",
-        "name": "即时通信桌面应用",
+        "name": "音视频即时通信PC终端",
         "year": "2012.06-2014.06",
         "library": ["Qt", "Linphone"],
         "description": [
-          "Qt 实现界面",
-          "Linphone 实现网络音视频"
+          "在大学实验室开发的一款语音视频聊天桌面应用",
+          "界面库基于 Qt，音视频通话基于 Linphone 的网络音视频电话，后台基于 Asterisk",
+          "负责开发音视频、文字聊天，以及音视频会议、通讯录管理、通话历史查询等功能"
         ]
       }
     ],
