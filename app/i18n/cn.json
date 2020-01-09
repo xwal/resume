@@ -79,7 +79,7 @@
       {
         "name": "成都果小美网络科技有限公司",
         "position": "iOS Leader",
-        "year": "2017.10-至今",
+        "year": "2017.10-2020.01",
         "description": [
           "负责 iOS 团队建设，带领5人小组开发了4款App",
           "主导 iOS 产品的技术选型、架构和开发",
@@ -193,7 +193,7 @@
       {
         "icon": "fa-server",
         "name": "无线工具链平台",
-        "year": "2017.10-至今",
+        "year": "2017.10-2020.01",
         "library": ["GitLab", "Fastlane", "Jenkins", "Node.js/Vue", "Ruby", "Python", "Flutter"],
         "description": [
           "无线工具链平台是一套服务于无线开发、测试、产品的工具链体系",
@@ -214,7 +214,7 @@
       {
         "icon": "fa-apple",
         "name": "宝贝仓",
-        "year": "2018.04-至今",
+        "year": "2018.04-2020.01",
         "library": ["RxSwift", "Moya", "URLNavigator", "PromiseKit", "Texture", "YYKit", "CryptoSwift", "MonkeyKing", "SnapKit", "WCDB", "Kingfisher", "Masonry"],
         "description": [
           "宝贝仓是一款面向职业买手的购物分销 App",
@@ -234,7 +234,7 @@
       {
         "icon": "fa-apple",
         "name": "淘呗商城",
-        "year": "2018.11-至今",
+        "year": "2018.11-2020.01",
         "library": ["RxSwift", "SwifterSwift", "URLNavigator", "CryptoSwift", "MonkeyKing", "PromiseKit", "ObjectMapper", "SnapKit", "Texture", "Alamofire", "Kingfisher", "Moya", "Flutter"],
         "description": [
           "淘呗商城是一款为批发商、分销商等买家提供在线交易，为商家提供发布商品、商品管理、直播对账、售后管理的应用",
@@ -253,7 +253,7 @@
       {
         "icon": "fa-apple",
         "name": "拍立播",
-        "year": "2019.03-至今",
+        "year": "2019.03-2020.01",
         "library": ["RxSwift", "URLNavigator", "MonkeyKing", "Alamofire", "Moya"],
         "description": [
           "拍立播是一款辅助社交平台卖货的销售工具",
