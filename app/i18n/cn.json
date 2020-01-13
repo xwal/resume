@@ -20,14 +20,14 @@
   },
   "header": {
     "name": "林天祥",
-    "title": "iOS Developer",
+    "title": "Senior iOS Developer",
     "languageIcon": "cn.png"
   },
   "about": {
     "socials": {
       "blog": {
         "linkTitle": "个人博客",
-        "url": "http://blog.chaosky.xyz",
+        "url": "http://chaosky.tech",
         "icon": "fa-rss"
       },
       "github": {
@@ -78,10 +78,10 @@
     "jobs": [
       {
         "name": "成都果小美网络科技有限公司",
-        "position": "iOS Leader",
+        "position": "iOS Team Lead",
         "year": "2017.10-2020.01",
         "description": [
-          "负责 iOS 团队建设，带领5人小组开发了4款App",
+          "负责 iOS 团队建设，带领5人团队开发了4款App",
           "主导 iOS 产品的技术选型、架构和开发",
           "开展团队内部技术分享(Fastlane、Weex、Flutter)",
           "构建无线端工具链平台，搭建 CI/CD 流水线"
@@ -396,7 +396,7 @@
               {
                 "title": "项目介绍",
                 "icon": "fa-globe",
-                "url": "http://blog.chaosky.xyz/workspace/ngp"
+                "url": "http://chaosky.tech/workspace/ngp"
               }
             ]
           }
@@ -418,7 +418,7 @@
     },
     "online": {
       "text": "在线版: ",
-      "url": "resume.chaosky.xyz"
+      "url": "resume.chaosky.tech"
     },
     "github": {
       "text": "更多项目请查看我的GitHub: "
