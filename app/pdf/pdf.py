@@ -79,7 +79,7 @@ def draw_func_employment(pdf_instance, job, left, top):
     for desc in job['description']:
         pdf_instance.ellipse(pdf_instance.get_x() + 1, pdf_instance.get_y() + 1.5, ellipse['size'], ellipse['size'], 'F')
         pdf_instance.cell(ellipse['margin'])
-        pdf_instance.cell(1, line_height['text'], desc, ln=2)
+        pdf_instance.multi_cell(0, line_height['text'], desc, align="L")
         pdf_instance.set_x(left)
     pdf_instance.ln(page_size['section_margin'])
 

@@ -37,8 +37,8 @@
       }
     },
     "introduction": [
-      "喜欢钻研的iOS开发者，主导和参与多款App开发",
-      "5年iOS开发经验，2年技术团队管理，2年iOS讲师经验",
+      "高产的 iOS 开发者，负责和参与多款 App 的架构和开发",
+      "5年 iOS 开发经验，2年技术团队管理",
       "良好的代码规范，注重实用和效率",
       "熟悉瀑布流式和敏捷迭代式开发",
       "丰富的自动化持续集成和持续部署经验",
@@ -78,12 +78,12 @@
     "jobs": [
       {
         "name": "成都果小美网络科技有限公司",
-        "position": "iOS Team Lead",
+        "position": "资深iOS开发工程师 && iOS Leader",
         "year": "2017.10-2020.01",
         "description": [
-          "负责 iOS 团队建设，带领5人团队开发了4款App",
-          "主导 iOS 产品的技术选型、架构和开发",
-          "开展团队内部技术分享(Fastlane、Weex、Flutter)",
+          "负责 iOS 团队建设，带领5人团队开发了4款 App\n先后开发了如来神掌、宝贝仓、淘呗商城、拍立播等 App",
+          "负责 iOS 产品的技术选型、架构和开发",
+          "组织团队内部技术分享(Fastlane、Weex、Flutter)",
           "构建无线端工具链平台，搭建 CI/CD 流水线"
         ]
       },
@@ -93,8 +93,8 @@
         "year": "2017.03-2017.10",
         "description": [
           "参与 Camera360 相机侧开发",
-          "开发大片滤镜和测试打包工具",
-          "开发新版 Unity 3D 贴纸控件和功能",
+          "开发大片滤镜功能及在线测试打包工具",
+          "开发3D贴纸选择控件和贴纸下载功能",
           "参与制定 Swift 内部培训"
         ]
       },
@@ -112,8 +112,8 @@
         "position": "软件工程师（Qt && iOS）",
         "year": "2014.04-2015.08",
         "description": [
-          "基于 Qt 和 Firefox XULRunner 的 ERP 软件开发维护",
-          "开发上架4款（品界、亿合云商、农厨商城、克女郎）App"
+          "负责开发基于 Qt 和 XULRunner 的 ERP 软件",
+          "参与开发4款(品界、亿合云商、农厨商城、克女郎)App"
         ]
       }
     ]
@@ -126,45 +126,28 @@
           "text": "iOS",
           "skills": [
             {
-              "name": "Swift",
+              "name": "Swift（非常熟练）",
               "rating": 5
             },
             {
-              "name": "Objective-C",
+              "name": "Objective-C（非常熟练）",
               "rating": 5
             },
             {
-              "name": "Flutter",
+              "name": "Flutter（熟练）",
               "rating": 3
             },
             {
-              "name": "iOS 逆向开发",
+              "name": "iOS 应用逆向（熟练）",
               "rating": 3
             }
           ]
         },
         {
-          "text": "前端",
+          "text": "其他（有过使用经验）",
           "skills": [
             {
               "name": "Vue",
-              "rating": 3
-            },
-            {
-              "name": "Node.js",
-              "rating": 3
-            },
-            {
-              "name": "H5",
-              "rating": 3
-            }
-          ]
-        },
-        {
-          "text": "后端",
-          "skills": [
-            {
-              "name": "Node.js",
               "rating": 3
             },
             {
@@ -198,10 +181,10 @@
         "description": [
           "无线工具链平台是一套服务于无线开发、测试、产品的工具链体系",
           "基于 GitLab、Fastlane、Jenkins，搭建 CI/CD 流水线",
-          "自建 App 分发平台、使用 Flutter 开发工具链 App",
-          "使用 Ruby、Fastlane 库开发 App Store 监控脚本",
-          "对接钉钉机器人推送打包版本更新和 App Store 状态更新提醒",
-          "开发 Debug 工具和线上反馈工具方便开发测试"
+          "通过开发搭建内部 App 内测分发托管平台实现了无限制分发，从而链接开发、测试、上线的每一个步骤",
+          "使用 Flutter 开发工具链 App 实现 App 版本和 Jenkins 构建信息的聚合，从而方便开发测试下载 App",
+          "通过使用 Ruby、Fastlane 库实现了 iTunes Connect 和 App Store 中应用的监控，从而使得 App 的状态变化更直观",
+          "通过对接钉钉机器人实现版本更新和 App Store 状态更新的提醒，从而使得相关人员可以获取 App 的状态变化"
         ],
         "links": [
           {
@@ -215,13 +198,14 @@
         "icon": "fa-apple",
         "name": "宝贝仓",
         "year": "2018.04-2020.01",
-        "library": ["RxSwift", "Moya", "URLNavigator", "PromiseKit", "Texture", "YYKit", "CryptoSwift", "MonkeyKing", "SnapKit", "WCDB", "Kingfisher", "Masonry"],
+        "library": ["RxSwift", "Moya", "URLNavigator", "PromiseKit", "Texture", "YYKit", "MonkeyKing", "SnapKit", "WCDB", "Kingfisher", "Masonry"],
         "description": [
           "宝贝仓是一款面向职业买手的购物分销 App",
-          "主要负责 App 技术选型和软件架构",
-          "开发集成一系列调试工具（App构建信息、环境切换、本地数据清除、性能检测、视觉工具），有效提升开发效率；\n使用 SwiftLint、OCLint、SwiftFormat 规范代码质量；\n使用 SwiftGen、Sourcery 自动生成资源代码，以更安全方便的方式访问",
-          "实现 Pods 的二进制化，打包时长从25分钟优化到12分钟",
-          "6个月实现GMV从0增长到1亿，截止2019.12 GMV 2.9亿"
+          "负责 App 技术选型和软件架构，采用 Swift + RxSwift + Moya + WCDB 的技术栈，基于 MVVM 的分层架构",
+          "通过开发集成一系列调试工具（App信息、环境切换、沙盒浏览、本地数据清除、性能检测、视觉工具），有效提升开发效率",
+          "通过使用 SwiftLint、OCLint、SwiftFormat 等工具进行代码检查，从而规范了代码，提高了代码质量",
+          "通过使用 SwiftGen、Sourcery 实现了图片、颜色、Deep Link 等资源的代码化访问，从而优化了资源的访问方式和提高了代码的安全性",
+          "实现 Pods 的二进制化集成，打包时长从25分钟优化到12分钟"
         ],
         "links": [
           {
@@ -238,33 +222,15 @@
         "library": ["RxSwift", "SwifterSwift", "URLNavigator", "CryptoSwift", "MonkeyKing", "PromiseKit", "ObjectMapper", "SnapKit", "Texture", "Alamofire", "Kingfisher", "Moya", "Flutter"],
         "description": [
           "淘呗商城是一款为批发商、分销商等买家提供在线交易，为商家提供发布商品、商品管理、直播对账、售后管理的应用",
-          "搭建基于 RxSwift/Moya/WCDB 技术栈的MVVM架构",
+          "负责搭建基于 Swift/RxSwift/Moya/WCDB 技术栈的MVVM架构",
           "负责商圈、消息中心、个人中心、商家管理等模块的开发工作",
-          "调研 Flutter 技术，探索跨平台开发的解决方案，并实际应用到项目中，实现iOS和Android开发效率提升30%"
+          "负责调研 Flutter 技术，探索跨平台开发的解决方案，并实际应用到项目中，实现iOS和Android开发效率提升30%"
         ],
         "links": [
           {
             "title": "App Store下载",
             "icon": "fa-globe",
             "url": "https://apps.apple.com/cn/app/id1445971808"
-          }
-        ]
-      },
-      {
-        "icon": "fa-apple",
-        "name": "拍立播",
-        "year": "2019.03-2020.01",
-        "library": ["RxSwift", "URLNavigator", "MonkeyKing", "Alamofire", "Moya"],
-        "description": [
-          "拍立播是一款辅助社交平台卖货的销售工具",
-          "搭建项目框架",
-          "搭建基于 WKWebView 的Web基础服务，实现快速对接H5页面"
-        ],
-        "links": [
-          {
-            "title": "App Store下载",
-            "icon": "fa-globe",
-            "url": "https://apps.apple.com/cn/app/id1460948566"
           }
         ]
       },
@@ -286,7 +252,8 @@
         "year": "2017.03-2017.10",
         "library": ["内部封装库", "ReactiveCocoa", "YYKit", "ZipArchive"],
         "description": [
-          "参与8.5.0相机重构，负责UI和作图流程，优化App启动速度",
+          "Camera 360是一款拍照软件",
+          "参与相机重构开发，负责多格拍照作图、美肤面板、高级调整等功能",
           "开发相机取景运营弹窗，滤镜和贴纸渗透率从5%提高到15%",
           "负责开发大片滤镜，并开发在线调试工具和批量作图导出功能",
           "开发Unity3D贴纸控件和功能，贴纸渗透率从28%提高到43%",
@@ -297,6 +264,26 @@
             "title": "App Store下载",
             "icon": "fa-globe",
             "url": "https://itunes.apple.com/cn/app/id443354861?mt=8"
+          }
+        ]
+      }
+    ],
+    "col2": [
+      {
+        "icon": "fa-apple",
+        "name": "拍立播",
+        "year": "2019.03-2020.01",
+        "library": ["RxSwift", "URLNavigator", "MonkeyKing", "Alamofire", "Moya"],
+        "description": [
+          "拍立播是一款辅助社交平台卖货的销售工具",
+          "搭建项目框架",
+          "搭建基于 WKWebView 的Web基础服务，实现快速对接H5页面"
+        ],
+        "links": [
+          {
+            "title": "App Store下载",
+            "icon": "fa-globe",
+            "url": "https://apps.apple.com/cn/app/id1460948566"
           }
         ]
       },
@@ -310,9 +297,7 @@
           "指导学生项目，教授开发流程、软件构建方法及最佳实践",
           "前沿技术及难点技术教学，如 蓝牙开发、动态更新、开发工具、iOS 支付、Runtime、Socket、XMPP等技术"
         ]
-      }
-    ],
-    "col2": [
+      },
       {
         "icon": "fa-apple",
         "name": "克女郎",
