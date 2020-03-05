@@ -1,14 +1,10 @@
 mixin project-gen(items)
   each item in items
-    .pro-wrapper
+    .emp-wrapper
       .head
-        .row
-          .col-md-2
-            i.fa(class= item.icon)
-          .col-md-8
-            h3= item.name
-          .col-md-2
-            .date-range= item.year
+        .date-range= item.year
+        h3= item.name
+        h4= item.job
       .body
         .pro-labels
           each lib in item.library
@@ -37,11 +33,11 @@ section#project
         .title
           h4= sections.project
     .col-md-11
-      .box-wrapper
-        .row
-          .col-md-4
+      .box-wrapper.emp-box
+        .row.timeline-wrapper
+          .col-md-12
             +project-gen(project.col1)
-          .col-md-4
+          .col-md-12
             +project-gen(project.col2)
-          .col-md-4
+          .col-md-12
             +project-gen(project.others.repos)

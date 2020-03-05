@@ -591,19 +591,10 @@ $img-size: 120px;
       color: #ffcc99;
     }
     .date-range {
-      font-size: 12px;
       @media all and (max-width: $page-split) {
         float: none;
         margin-top: 1px;
       }
-    }
-    h3 {
-      line-height: 20px;
-      font-size: 18px;
-    }
-    h4 {
-      line-height: 18px;
-      font-size: 15px;
     }
   }
   .body {

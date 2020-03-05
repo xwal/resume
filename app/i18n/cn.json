@@ -15,12 +15,12 @@
     "githubLink": "https://github.com/chaoskyme",
     "downloadPDFImageAlt": "下载PDF版",
     "downloadPDFText": "下载PDF版",
-    "pdfLink": "林天祥-应聘 iOS 高级工程师-6年开发.pdf",
-    "pdfName": "林天祥-应聘 iOS 高级工程师-6年开发"
+    "pdfLink": "林天祥-应聘 iOS 开发工程师-6年开发.pdf",
+    "pdfName": "林天祥-应聘 iOS 开发工程师-6年开发"
   },
   "header": {
     "name": "林天祥",
-    "title": "Senior iOS Engineer",
+    "title": "iOS Engineer",
     "languageIcon": "cn.png"
   },
   "about": {
@@ -78,10 +78,10 @@
     "jobs": [
       {
         "name": "成都果小美网络科技有限公司",
-        "position": "资深iOS开发工程师 && iOS Leader",
+        "position": "资深 iOS 开发工程师 && iOS Team Leader",
         "year": "2017.10-2020.01",
         "description": [
-          "负责 iOS 团队建设，带领5人团队开发了4款 App\n先后开发了如来神掌、宝贝仓、淘呗商城、拍立播等 App",
+          "负责 iOS 团队建设，带领5人团队开发了4款 App",
           "负责 iOS 产品的技术选型、架构和开发",
           "组织团队内部技术分享(Fastlane、Weex、Flutter)",
           "构建无线端工具链平台，搭建 CI/CD 流水线"
@@ -174,29 +174,9 @@
   "project": {
     "col1": [
       {
-        "icon": "fa-server",
-        "name": "无线工具链平台",
-        "year": "2017.10-2020.01",
-        "library": ["GitLab", "Fastlane", "Jenkins", "Node.js/Vue", "Ruby", "Python", "Flutter"],
-        "description": [
-          "无线工具链平台是一套服务于无线开发、测试、产品的工具链体系",
-          "基于 GitLab、Fastlane、Jenkins，搭建 CI/CD 流水线",
-          "通过开发搭建内部 App 内测分发托管平台实现了无限制分发，从而链接开发、测试、上线的每一个步骤",
-          "使用 Flutter 开发工具链 App 实现 App 版本和 Jenkins 构建信息的聚合，从而方便开发测试下载 App",
-          "通过使用 Ruby、Fastlane 库实现了 iTunes Connect 和 App Store 中应用的监控，从而使得 App 的状态变化更直观",
-          "通过对接钉钉机器人实现版本更新和 App Store 状态更新的提醒，从而使得相关人员可以获取 App 的状态变化"
-        ],
-        "links": [
-          {
-            "title": "发布平台",
-            "icon": "fa-globe",
-            "url": "https://fabu.guoxiaomei.com"
-          }
-        ]
-      },
-      {
         "icon": "fa-apple",
         "name": "宝贝仓",
+        "job": "成都果小美网络科技有限公司",
         "year": "2018.04-2020.01",
         "library": ["RxSwift", "Moya", "URLNavigator", "PromiseKit", "Texture", "YYKit", "MonkeyKing", "SnapKit", "WCDB", "Kingfisher", "Masonry"],
         "description": [
@@ -218,12 +198,14 @@
       {
         "icon": "fa-apple",
         "name": "淘呗商城",
+        "job": "成都果小美网络科技有限公司",
         "year": "2018.11-2020.01",
         "library": ["RxSwift", "SwifterSwift", "URLNavigator", "CryptoSwift", "MonkeyKing", "PromiseKit", "ObjectMapper", "SnapKit", "Texture", "Alamofire", "Kingfisher", "Moya", "Flutter"],
         "description": [
           "淘呗商城是一款为批发商、分销商等买家提供在线交易，为商家提供发布商品、商品管理、直播对账、售后管理的应用",
           "负责搭建基于 Swift/RxSwift/Moya/WCDB 技术栈的MVVM架构",
           "负责商圈、消息中心、个人中心、商家管理等模块的开发工作",
+          "负责将常用的工具类、Swift扩展、RxSwift扩展封装成组件库，制作成 Pod 库提供给所有项目使用",
           "负责调研 Flutter 技术，探索跨平台开发的解决方案，并实际应用到项目中，实现iOS和Android开发效率提升30%"
         ],
         "links": [
@@ -236,7 +218,27 @@
       },
       {
         "icon": "fa-apple",
+        "name": "拍立播",
+        "job": "成都果小美网络科技有限公司",
+        "year": "2019.03-2020.01",
+        "library": ["RxSwift", "URLNavigator", "MonkeyKing", "Alamofire", "Moya"],
+        "description": [
+          "拍立播是一款辅助社交平台卖货的销售工具",
+          "负责搭建项目框架，抽象公共组件",
+          "负责搭建基于 WKWebView 的Web基础服务，将Native的功能抽象成服务提供 Web 调用，从而实现赋能 Web 开发"
+        ],
+        "links": [
+          {
+            "title": "App Store下载",
+            "icon": "fa-globe",
+            "url": "https://apps.apple.com/cn/app/id1460948566"
+          }
+        ]
+      },
+      {
+        "icon": "fa-apple",
         "name": "如来神掌",
+        "job": "成都果小美网络科技有限公司",
         "year": "2017.10-2018.04",
         "library": ["RxSwift", "Weex", "Eureka", "Alamofire", "Moya", "YYKit", "SnapKit", "TagListView"],
         "description": [
@@ -247,8 +249,31 @@
         "links": []
       },
       {
+        "icon": "fa-server",
+        "name": "无线工具链平台",
+        "job": "成都果小美网络科技有限公司",
+        "year": "2017.10-2020.01",
+        "library": ["GitLab", "Fastlane", "Jenkins", "Node.js/Vue", "Ruby", "Python", "Flutter"],
+        "description": [
+          "无线工具链平台是一套服务于无线开发、测试、产品的工具链体系",
+          "基于 GitLab、Fastlane、Jenkins，搭建 CI/CD 流水线",
+          "通过开发搭建内部 App 内测分发托管平台实现了无限制分发，从而链接开发、测试、上线的每一个步骤",
+          "使用 Flutter 开发工具链 App 实现 App 版本和 Jenkins 构建信息的聚合，从而方便开发测试下载 App",
+          "通过使用 Ruby、Fastlane 库实现了 iTunes Connect 和 App Store 中应用的监控，从而使得 App 的状态变化更直观",
+          "通过对接钉钉机器人实现版本更新和 App Store 状态更新的提醒，从而使得相关人员可以获取 App 的状态变化"
+        ],
+        "links": [
+          {
+            "title": "发布平台",
+            "icon": "fa-globe",
+            "url": "https://fabu.guoxiaomei.com"
+          }
+        ]
+      },
+      {
         "icon": "fa-apple",
         "name": "Camera360",
+        "job": "成都品果科技有限公司",
         "year": "2017.03-2017.10",
         "library": ["内部封装库", "ReactiveCocoa", "YYKit", "ZipArchive"],
         "description": [
@@ -271,25 +296,8 @@
     "col2": [
       {
         "icon": "fa-apple",
-        "name": "拍立播",
-        "year": "2019.03-2020.01",
-        "library": ["RxSwift", "URLNavigator", "MonkeyKing", "Alamofire", "Moya"],
-        "description": [
-          "拍立播是一款辅助社交平台卖货的销售工具",
-          "搭建项目框架",
-          "搭建基于 WKWebView 的Web基础服务，实现快速对接H5页面"
-        ],
-        "links": [
-          {
-            "title": "App Store下载",
-            "icon": "fa-globe",
-            "url": "https://apps.apple.com/cn/app/id1460948566"
-          }
-        ]
-      },
-      {
-        "icon": "fa-apple",
         "name": "iOS 培训教学",
+        "job": "北京千锋互联科技有限公司成都分公司",
         "year": "2015.08-2017.03",
         "library": ["CocoaPods", "SDWebImage", "Masonry"],
         "description": [
@@ -299,44 +307,9 @@
         ]
       },
       {
-        "icon": "fa-apple",
-        "name": "克女郎",
-        "year": "2015.06-2015.08",
-        "library": ["AFN", "Masonry", "WebViewJavascriptBridge", "MJRefresh"],
-        "description": [
-          "克女郎是一款为克克女鞋开发的移动购物App"
-        ]
-      },
-      {
-        "icon": "fa-apple",
-        "name": "农厨商城",
-        "year": "2015.5-2015.7",
-        "library": ["AFN", "SDWebImage", "MJRefresh", "Masonry", "Ono", "POP"],
-        "description": [
-          "农厨商城是一款买卖生鲜食品的网上商城 App"
-        ]
-      },
-      {
-        "icon": "fa-apple",
-        "name": "亿合云商",
-        "year": "2015.01-2015.04",
-        "library": ["AFN", "FMDB", "MBProgressHUD", "MJRefresh"],
-        "description": [
-          "亿合云商是一款通用电商模板 App，为复杂电商场景下的商家提供方便快捷的App"
-        ]
-      },
-      {
-        "icon": "fa-apple",
-        "name": "品界",
-        "year": "2014.08-2015.03",
-        "library": ["AFN", "FMDB", "MBProgressHUD", "MJRefresh"],
-        "description": [
-          "品界是一款女装批发的网上商城 App"
-        ]
-      },
-      {
         "icon": "fa-desktop",
         "name": "337游戏盒子",
+        "job": "北京智明星通科技有限公司",
         "year": "2013.11-2014.02",
         "library": ["Qt", "CEF"],
         "description": [
@@ -349,6 +322,7 @@
       {
         "icon": "fa-desktop",
         "name": "音视频即时通信PC终端",
+        "job": "DB&KE 实验室",
         "year": "2012.06-2014.06",
         "library": ["Qt", "Linphone"],
         "description": [
@@ -363,7 +337,28 @@
       "repos": [
           {
             "icon": "fa-apple",
-            "name": "世界画报（个人作品）",
+            "name": "铃声大师",
+            "job": "个人作品",
+            "year": "2020.01-至今",
+            "library": ["RxSwift", "SwifterSwift", "Kingfisher", "SnapKit", "Moya", "QMUIKit", "GCDWebServer", "WCDB.swift", "Fabric", "AudioKit"],
+            "description": [
+              "铃声大师是一款手机铃声制作软件",
+              "通过AVFoundation框架将mp3、aac、wav、m4a等音频文件转换为aiff文件，并转换成库乐队项目分享到库乐队软件设置为铃声",
+              "通过 AudioKit 实现对音频文件的裁剪、拼接",
+              "实现从本地视频导入提取音频m4a，从电脑上传音频文件并存储到本地，从系统音乐、文件 App导入音频文件"
+            ],
+            "links": [
+              {
+                "title": "项目介绍",
+                "icon": "fa-globe",
+                "url": "http://chaosky.tech/workspace/ringtonemaster/"
+              }
+            ]
+          },
+          {
+            "icon": "fa-apple",
+            "name": "世界画报",
+            "job": "个人作品",
             "year": "2016.11-至今",
             "library": ["RxSwift", "Alamofire", "Kingfisher", "SnapKit", "DateTools", "Moya", "SwiftyJSON", "ZCAnimatedLabel", "ObjectMapper"],
             "description": [
@@ -374,14 +369,9 @@
             ],
             "links": [
               {
-                "title": "App Store下载",
-                "icon": "fa-globe",
-                "url": "https://itunes.apple.com/us/app/guo-jia-de-li-hua-bao/id1178885979?l=zh&ls=1&mt=8"
-              },
-              {
                 "title": "项目介绍",
                 "icon": "fa-globe",
-                "url": "http://chaosky.tech/workspace/ngp"
+                "url": "http://chaosky.tech/workspace/worldpicture/"
               }
             ]
           }
