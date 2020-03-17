@@ -340,18 +340,25 @@
             "name": "铃声大师",
             "job": "个人作品",
             "year": "2020.01-至今",
-            "library": ["RxSwift", "SwifterSwift", "Kingfisher", "SnapKit", "Moya", "QMUIKit", "GCDWebServer", "WCDB.swift", "Fabric", "AudioKit"],
+            "library": ["RxSwift", "SwifterSwift", "Kingfisher", "SnapKit", "Moya", "QMUIKit", "GCDWebServer", "WCDB.swift", "Fabric", "FFmpeg"],
             "description": [
               "铃声大师是一款手机铃声制作软件",
-              "通过AVFoundation框架将mp3、aac、wav、m4a等音频文件转换为aiff文件，并转换成库乐队项目分享到库乐队软件设置为铃声",
-              "通过 AudioKit 实现对音频文件的裁剪、拼接",
-              "实现从本地视频导入提取音频m4a，从电脑上传音频文件并存储到本地，从系统音乐、文件 App导入音频文件"
+              "通过 FFmpeg 框架将mp3、aac、wav、m4a等音频文件转换为aiff文件，分享到库乐队软件设置为铃声",
+              "通过 FFmpeg 实现对音频文件的裁剪、拼接，实现从视频中提取音频",
+              "通过使用 GCDWebServer 搭建Web服务器，实现从电脑上传音视频并存储到本地",
+              "实现从从本地相册、系统音乐、文件 App以及从其他App导入音视频，并从中提取音频",
+              "通过解析抖音的分享链接，获取抖音的视频链接，从中提取音频，实现在线视频解析功能"
             ],
             "links": [
               {
                 "title": "项目介绍",
                 "icon": "fa-globe",
                 "url": "http://chaosky.tech/workspace/ringtonemaster/"
+              },
+              {
+                "title": "App Store下载",
+                "icon": "fa-globe",
+                "url": "https://itunes.apple.com/cn/app/id1499302483?mt=8"
               }
             ]
           },
@@ -360,7 +367,7 @@
             "name": "世界画报",
             "job": "个人作品",
             "year": "2016.11-至今",
-            "library": ["RxSwift", "Alamofire", "Kingfisher", "SnapKit", "DateTools", "Moya", "SwiftyJSON", "ZCAnimatedLabel", "ObjectMapper"],
+            "library": ["RxSwift", "Alamofire", "Kingfisher", "SnapKit", "DateTools", "Moya", "SwiftyJSON", "ObjectMapper"],
             "description": [
               "世界画报是一款壁纸类 App 应用，集合了世界地理杂志、最美壁纸、unsplash等数据来源的壁纸数据",
               "实现UITableView视差效果，优化壁纸浏览体验",
@@ -372,6 +379,11 @@
                 "title": "项目介绍",
                 "icon": "fa-globe",
                 "url": "http://chaosky.tech/workspace/worldpicture/"
+              },
+              {
+                "title": "App Store下载",
+                "icon": "fa-globe",
+                "url": "https://itunes.apple.com/cn/app/id1483196698?mt=8"
               }
             ]
           }
