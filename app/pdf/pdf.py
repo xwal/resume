@@ -92,10 +92,10 @@ def draw_func_project(pdf_instance, proj, left, top):
     pdf_instance.cell(1, line_height['text'], proj['name'] + u' (' + proj['year'] + ')', ln=2)
     pdf_instance.set_text_color(grey)
     pdf_instance.set_font_size(font_size['text'])
-    pdf_instance.cell(1, line_height['text'] - 2, proj['job'], ln=2)
+    pdf_instance.cell(1, line_height['text'], proj['job'], ln=2)
+    pdf_instance.ln(page_size['section_margin'])
     pdf_instance.set_font_size(font_size['text'])
     pdf_instance.set_text_color(black)
-    pdf_instance.multi_cell(0, line_height['text'] + 1, u'[ ' + u', '.join(proj['library']) + ' ]')
     for desc in proj['description']:
         pdf_instance.set_x(left)
         pdf_instance.ellipse(pdf_instance.get_x() + 1, pdf_instance.get_y() + 1.5, ellipse['size'], ellipse['size'], 'F')
@@ -192,7 +192,7 @@ for lang in all_langs:
     pdf.set_font(title_font, '', font_size['section_title'])
     pdf.cell(1, line_height['section'] - 1, data['sections']['employment'], ln=2)
     pdf.set_font(text_font, '', font_size['text'])
-    apply_two_column(pdf, data['employment']['jobs'], draw_func_employment);
+    apply_two_column(pdf, data['employment']['jobs'][:2], draw_func_employment);
     # skill section
     pdf.set_x(page_size['left'])
     pdf.set_font(title_font, '', font_size['section_title'])
