@@ -27,7 +27,7 @@
     "socials": {
       "blog": {
         "linkTitle": "个人博客",
-        "url": "http://chaosky.tech",
+        "url": "https://chaosky.tech",
         "icon": "fa-rss"
       },
       "github": {
@@ -78,7 +78,7 @@
     "jobs": [
       {
         "name": "成都果小美网络科技有限公司",
-        "position": "资深 iOS 开发工程师 && iOS Team Leader",
+        "position": "资深 iOS 开发工程师",
         "year": "2017.10-2020.01",
         "description": [
           "负责 iOS 团队建设、沟通和协作，指导团队开发",
@@ -355,7 +355,7 @@
               {
                 "title": "项目介绍",
                 "icon": "fa-globe",
-                "url": "http://chaosky.tech/workspace/ringtonemaster/"
+                "url": "https://chaosky.tech/workspace/ringtonemaster/"
               },
               {
                 "title": "App Store下载",
@@ -380,7 +380,7 @@
               {
                 "title": "项目介绍",
                 "icon": "fa-globe",
-                "url": "http://chaosky.tech/workspace/worldpicture/"
+                "url": "https://chaosky.tech/workspace/worldpicture/"
               },
               {
                 "title": "App Store下载",
