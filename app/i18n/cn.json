@@ -13,6 +13,9 @@
   },
   "badge": {
     "githubLink": "https://github.com/chaoskyme",
+    "languageImageAlt": "switch to English",
+    "languageText": "English",
+    "languageLink": "./en.html",
     "downloadPDFImageAlt": "下载PDF版",
     "downloadPDFText": "下载PDF版",
     "pdfLink": "林天祥-应聘 iOS 开发工程师-6年开发.pdf",
@@ -21,7 +24,7 @@
   "header": {
     "name": "林天祥",
     "title": "iOS Engineer",
-    "languageIcon": "cn.png"
+    "languageIcon": "en.png"
   },
   "about": {
     "socials": {
@@ -316,8 +319,7 @@
         "library": ["Qt", "CEF"],
         "description": [
           "337游戏盒子是一款基于 Qt 和 CEF 技术开发的集合多款网页游戏的PC应用",
-          "独立负责游戏盒子的开发工作",
-          "项目开发期间通过 Basecamp 进行项目管理",
+          "独立负责游戏盒子的开发工作，项目开发期间通过 Basecamp 进行项目管理",
           "QtWebView 加载网页游戏时有明显的卡顿和占用内存过高现象。尝试对 QtWebView 进行优化效果不明显，后采用 Chromium 内核加载游戏，性能显著提升。卡顿现象消失，内存降低为原来的 %40，加载速度从100ms优化到50ms"
         ]
       },

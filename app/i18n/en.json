@@ -1,0 +1,404 @@
+{
+  "html": {
+    "title": "Tianxiang Lin's Resume",
+    "description": "resume iOS Objective-C Swift"
+  },
+  "sections": {
+    "header": "HOME",
+    "about": "ABOUT",
+    "education": "EDUCATION",
+    "employment": "EMPLOYMENT",
+    "skill": "SKILL",
+    "project": "PROJECT"
+  },
+  "badge": {
+    "githubLink": "https://github.com/chaoskyme",
+    "languageImageAlt": "切换到中文版",
+    "languageText": "中文版",
+    "languageLink": "./index.html",
+    "downloadPDFImageAlt": "Download as PDF",
+    "downloadPDFText": "Download",
+    "pdfLink": "TianxiangLin-iOS-resume.pdf",
+    "pdfName": "TianxiangLin-iOS-resume"
+  },
+  "header": {
+    "name": "Tianxiang Lin",
+    "title": "iOS Engineer",
+    "languageIcon": "cn.png"
+  },
+  "about": {
+    "socials": {
+      "blog": {
+        "linkTitle": "Blog",
+        "url": "https://chaosky.tech",
+        "icon": "fa-rss"
+      },
+      "github": {
+        "linkTitle": "GitHub",
+        "url": "https://github.com/chaoskyme",
+        "icon": "fa-github"
+      }
+    },
+    "introduction": [
+      "loveing programming, development multiple apps",
+      "5 years of iOS experience and 2 years management",
+      "Good code specification, practicality and efficiency",
+      "Familiar with waterfall flow and agile iterative development",
+      "Rich experience in CI and CD",
+      "Good at using and developing toolchain to improve efficiency"
+    ],
+    "location": "Chengdu, China",
+    "phone": "(+86) 18981988677",
+    "email": "chaosky.me@gmail.com",
+    "age": "1991",
+    "sex": "Male"
+  },
+  "education": {
+    "universities": [
+      {
+        "name": "Chengdu University of Information Technology",
+        "location": "Chengdu, China",
+        "year": "2010.9-2014.6",
+        "major": "Software Engineering",
+        "items": [
+          {
+            "icon": "fa-trophy",
+            "text": "Third-class Scholarship in freshman, National Aspiration Scholarship in junior"
+          },
+          {
+            "icon": "fa-trophy",
+            "text": "'Challenge Cup' First-class in Sichuan Zone"
+          },
+          {
+            "icon": "fa-code",
+            "text": "Started Qt/C++ development in DB & KE laboratory since sophomore year"
+          }
+        ]
+      }
+    ]
+  },
+  "employment": {
+    "jobs": [
+      {
+        "name": "Chengdu Guoxiaomei Network Technology Co., Ltd.",
+        "position": "Senior iOS developer",
+        "year": "2017.10-2020.01",
+        "description": [
+          "iOS team building, communication and collaboration",
+          "technology selection, architecture and task development",
+          "Organize team to share and learn technology",
+          "Build a wireless toolchain platform to track App status"
+        ]
+      },
+      {
+        "name": "Chengdu Pinguo Technology Co., Ltd. (Camera360)",
+        "position": "iOS developer",
+        "year": "2017.03-2017.10",
+        "description": [
+          "Participate in Camera360 camera side development",
+          "Development of large-scale filter functions and online test packaging tools",
+          "Develop 3D sticker selection control and sticker download function",
+          "Participate in the development of Swift internal training"
+        ]
+      },
+      {
+        "name": "Beijing 1000phone Technology Co., Ltd. Chengdu Branch",
+        "position": "iOS Training Teacher",
+        "year": "2015.08-2017.03",
+        "description": [
+          "iOS training teaching",
+          "Participate in the development of Swift training courses"
+        ]
+      },
+      {
+        "name": "Chengdu EHE Technology Co., Ltd.",
+        "position": "software developer (Qt && iOS)",
+        "year": "2014.04-2015.08",
+        "description": [
+          "Responsible for developing ERP software based on Qt and XULRunner",
+          "Participated in the development of 4 (Pinjie, Yiheyunshang, Agricultural Kitchen Mall, Ke Girl) iOS Apps"
+        ]
+      }
+    ]
+  },
+  "skill": {
+    "programming": {
+      "text": "Programming",
+      "children": [
+        {
+          "text": "iOS",
+          "skills": [
+            {
+              "name": "Swift (Very skilled)",
+              "rating": 5
+            },
+            {
+              "name": "Objective-C (Very skilled)",
+              "rating": 5
+            },
+            {
+              "name": "Flutter (Skilled)",
+              "rating": 3
+            },
+            {
+              "name": "iOS reverse (Skilled)",
+              "rating": 3
+            }
+          ]
+        },
+        {
+          "text": "Other (Have experience in using)",
+          "skills": [
+            {
+              "name": "Vue",
+              "rating": 3
+            },
+            {
+              "name": "Ruby",
+              "rating": 3
+            },
+            {
+              "name": "Python",
+              "rating": 3
+            }
+          ]
+        }
+      ]
+    },
+    "library": {
+      "text": "iOS Libraries",
+      "children": ["RxSwift", "SwifterSwift", "ObjectMapper", "PromiseKit", "Alamofire", "Moya", "Kingfisher", "WCDB", "SnapKit", "Texture"]
+    },
+    "tooling": {
+      "text": "Tooling",
+      "children": ["Shell", "Git", "CocoaPods", "Charles", "Reveal", "Fastlane", "Hopper",  "Jenkins", "MachOView"]
+    }
+  },
+  "project": {
+    "col1": [
+      {
+        "icon": "fa-apple",
+        "name": "BaoBeiCang",
+        "job": "Chengdu Guoxiaomei Network Technology Co., Ltd.",
+        "year": "2018.04-2020.01",
+        "library": ["RxSwift", "Moya", "URLNavigator", "PromiseKit", "Texture", "YYKit", "MonkeyKing", "SnapKit", "WCDB", "Kingfisher", "Masonry"],
+        "description": [
+          "BaoBeiCang is a shopping and distribution app for professional buyers",
+          "Responsible for App technology selection and software architecture, using Swift + RxSwift + Moya + WCDB technology stack, based on MVVM layered architecture",
+          "Improve development and debugging efficiency through development and debugging tools (App information, environment switching, sandbox browsing, local data clearing, performance detection, visual tools)",
+          "By using SwiftLint, OCLint, SwiftFormat and other tools for code inspection and formatting, the code is standardized and the code quality is improved",
+          "By using SwiftGen and Sourcery to realize the automatic generation of resources such as Image, Color, Router, etc., the access method of resources is optimized and the security of the code is improved",
+          "To realize the binary integration of Pods, the packaging time is optimized from 25 minutes to 12 minutes, and different compilation options are configured according to different packaging needs",
+          "Responsible for the development of personal center, order, performance center, advertising, address management and other modules"
+        ],
+        "links": [
+          {
+            "title": "App Store Download",
+            "icon": "fa-globe",
+            "url": "https://apps.apple.com/cn/app/id1385358983"
+          }
+        ]
+      },
+      {
+        "icon": "fa-apple",
+        "name": "Taobei Mall",
+        "job": "Chengdu Guoxiaomei Network Technology Co., Ltd.",
+        "year": "2018.11-2020.01",
+        "library": ["RxSwift", "SwifterSwift", "URLNavigator", "CryptoSwift", "MonkeyKing", "PromiseKit", "ObjectMapper", "SnapKit", "Texture", "Alamofire", "Kingfisher", "Moya", "Flutter"],
+        "description": [
+          "Taobei Mall is an application that provides online transactions for wholesalers, distributors and other buyers, as well as for merchants to publish merchandise, commodity management, live broadcast reconciliation, and after-sales management",
+          "Responsible for building MVVM architecture based on Swift / RxSwift / Moya / WCDB technology stack",
+          "Responsible for the development of business district, message center, personal center, business management and other modules",
+          "Responsible for packaging commonly used tool classes, Swift extensions, RxSwift extensions into component libraries, making Pod libraries for all projects to use",
+          "Develop Xcode plugin to automatically generate Swift model directly from JSON data and integrate it into Xcode to improve development efficiency",
+          "Responsible for investigating Flutter technology and applying it to the project to achieve 30% improvement in iOS and Android development efficiency; by modifying the project configuration and writing Ruby and Shell scripts to achieve local debugging and automatic generation of Flutter products for integration during packaging"
+        ],
+        "links": [
+          {
+            "title": "App Store Download",
+            "icon": "fa-globe",
+            "url": "https://apps.apple.com/cn/app/id1445971808"
+          }
+        ]
+      },
+      {
+        "icon": "fa-apple",
+        "name": "PaiLiBo",
+        "job": "Chengdu Guoxiaomei Network Technology Co., Ltd.",
+        "year": "2019.03-2020.01",
+        "library": ["RxSwift", "URLNavigator", "MonkeyKing", "Alamofire", "Moya"],
+        "description": [
+          "PaiLiBo is a sales tool that assists in selling on social platforms",
+          "Responsible for building project framework and abstracting public components",
+          "Responsible for building Web-based services based on WKWebView, abstracting Native's functions into services to provide Web calls, thereby enabling empowered Web development"
+        ],
+        "links": [
+          {
+            "title": "App Store Download",
+            "icon": "fa-globe",
+            "url": "https://apps.apple.com/cn/app/id1460948566"
+          }
+        ]
+      },
+      {
+        "icon": "fa-apple",
+        "name": "RuLaiShenZhang",
+        "job": "Chengdu Guoxiaomei Network Technology Co., Ltd.",
+        "year": "2017.10-2018.04",
+        "library": ["RxSwift", "Weex", "Eureka", "Alamofire", "Moya", "YYKit", "SnapKit", "TagListView"],
+        "description": [
+          "RuLaiShenZhang is an online CRM application system for containers that serves BD",
+          "Responsible for the development of BD tools (high seas, private seas, signing orders, etc.) modules",
+          "Use Weex technology to improve the development efficiency of iOS and Android by 50%"
+        ],
+        "links": []
+      },
+      {
+        "icon": "fa-server",
+        "name": "Wireless toolchain platform",
+        "job": "Chengdu Guoxiaomei Network Technology Co., Ltd.",
+        "year": "2017.10-2020.01",
+        "library": ["GitLab", "Fastlane", "Jenkins", "Node.js/Vue", "Ruby", "Python", "Flutter"],
+        "description": [
+          "The wireless tool chain platform is a set of tool chain system serving wireless development, testing and products",
+          "Build CI / CD pipeline based on GitLab, Fastlane, Jenkins",
+          "Through the development and construction of an internal app, the internal test distribution and hosting platform realizes unlimited distribution, thereby linking every step of development, testing, and going online",
+          "Use Flutter development tool chain App to realize the aggregation of App version and Jenkins construction information, so as to facilitate the development, testing and download of the App",
+          "Through the use of Ruby, Fastlane library to realize the monitoring of applications in iTunes Connect and App Store, so that the status of the app is more intuitive",
+          "Implement the reminder of version update and App Store status update by docking the robot, so that relevant personnel can get the status change of the App"
+        ],
+        "links": [
+          {
+            "title": "Publishing platform",
+            "icon": "fa-globe",
+            "url": "https://fabu.guoxiaomei.com"
+          }
+        ]
+      },
+      {
+        "icon": "fa-apple",
+        "name": "Camera360",
+        "job": "Chengdu Pinguo Technology Co., Ltd.",
+        "year": "2017.03-2017.10",
+        "library": ["Internal library", "ReactiveCocoa", "YYKit", "ZipArchive"],
+        "description": [
+          "Camera360 is a camera software",
+          "Participate in camera reconstruction development, responsible for multi-frame photo drawing, skin beauty panel, advanced adjustment and other functions",
+          "Developed camera framing operation pop-up window, increased filter and sticker penetration rate from 5% to 15%",
+          "Responsible for developing large filters, and developing online debugging tools and batch drawing export functions",
+          "Develop Unity3D sticker controls and functions, increase sticker penetration rate from 28% to 43%",
+          "App Store photography and video category ranking increased from 48 to 14"
+        ],
+        "links": [
+          {
+            "title": "App Store Download",
+            "icon": "fa-globe",
+            "url": "https://itunes.apple.com/cn/app/id443354861?mt=8"
+          }
+        ]
+      }
+    ],
+    "col2": [
+      {
+        "icon": "fa-desktop",
+        "name": "337 Game Box",
+        "job": "Beijing Elex Technology Co., Ltd.",
+        "year": "2013.11-2014.02",
+        "library": ["Qt", "CEF"],
+        "description": [
+          "337 Game Box is a PC application based on Qt and CEF technology that integrates multiple web games",
+          "Independently responsible for the development of the game box, and project management through Basecamp during project development",
+          "When QtWebView loads a web game, it has obvious lag and high memory usage. The effect of trying to optimize QtWebView is not obvious, and then the game is loaded with the Chromium kernel, and the performance is significantly improved. The stuck phenomenon disappears, the memory is reduced to the original% 40, and the loading speed is optimized from 100ms to 50ms"
+        ]
+      },
+      {
+        "icon": "fa-desktop",
+        "name": "Audio and video instant communication PC terminal",
+        "job": "DB&KE lab",
+        "year": "2012.06-2014.06",
+        "library": ["Qt", "Linphone"],
+        "description": [
+          "A voice and video chat desktop application developed in a university laboratory",
+          "The interface library is based on Qt, the audio and video calls are based on Linphone's network audio and video calls, and the background is based on Asterisk",
+          "Responsible for the development of audio and video, text chat, as well as audio and video conferencing, address book management, call history query and other functions"
+        ]
+      }
+    ],
+    "others": {
+      "text": "Personal Projects",
+      "repos": [
+          {
+            "icon": "fa-apple",
+            "name": "Ringtone Master",
+            "job": "personal project",
+            "year": "2020.01-now",
+            "library": ["RxSwift", "SwifterSwift", "Kingfisher", "SnapKit", "Moya", "QMUIKit", "GCDWebServer", "WCDB.swift", "Fabric", "FFmpeg"],
+            "description": [
+              "Ringtone Master is a mobile ringtone making software",
+              "Convert mp3, aac, wav, m4a and other audio files to aiff files through FFmpeg framework, share to library band software and set as ringtones",
+              "Crop and splice audio files through FFmpeg to extract audio from video",
+              "By using GCDWebServer to build a Web server, upload audio and video from the computer and store it locally",
+              "Import and extract audio and video from local albums, system music, file apps and other apps",
+              "By analyzing the sharing link of Douyin, obtain the video link of Douyin, extract audio from it, and realize the online video parsing function"
+            ],
+            "links": [
+              {
+                "title": "Project Introduction",
+                "icon": "fa-globe",
+                "url": "https://chaosky.tech/workspace/ringtonemaster/"
+              },
+              {
+                "title": "App Store Download",
+                "icon": "fa-globe",
+                "url": "https://itunes.apple.com/cn/app/id1499302483?mt=8"
+              }
+            ]
+          },
+          {
+            "icon": "fa-apple",
+            "name": "World Picture",
+            "job": "personal project",
+            "year": "2016.11-now",
+            "library": ["RxSwift", "Alamofire", "Kingfisher", "SnapKit", "DateTools", "Moya", "SwiftyJSON", "ObjectMapper"],
+            "description": [
+              "World Picture is a wallpaper app that collects wallpaper data from world geographic magazines, the most beautiful wallpapers, unsplash and other data sources",
+              "Realize UITableView parallax effect, optimize wallpaper browsing experience",
+              "Use CoreMotion to dynamically track user gestures and dynamically display large image areas",
+              "Integrate Baidu Voice TTS to read aloud wallpaper description"
+            ],
+            "links": [
+              {
+                "title": "Project Introduction",
+                "icon": "fa-globe",
+                "url": "https://chaosky.tech/workspace/worldpicture/"
+              },
+              {
+                "title": "App Store Download",
+                "icon": "fa-globe",
+                "url": "https://itunes.apple.com/cn/app/id1483196698?mt=8"
+              }
+            ]
+          }
+      ]
+    }
+  },
+  "pdf": {
+    "fonts": {
+      "title": {
+        "type": "standard",
+        "name": "Arial"
+      },
+      "text": {
+        "type": "standard",
+        "name": "Helvetica"
+      }
+    },
+    "online": {
+      "text": "Online version: ",
+      "url": "resume.chaosky.tech"
+    },
+    "github": {
+      "text": "Check more on my Github: "
+    }
+  }
+}
