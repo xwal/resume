@@ -12,7 +12,7 @@
     "project": "PROJECT"
   },
   "badge": {
-    "githubLink": "https://github.com/chaoskyme",
+    "githubLink": "https://github.com/chaoskyx",
     "languageImageAlt": "切换到中文版",
     "languageText": "中文版",
     "languageLink": "./index.html",
@@ -35,7 +35,7 @@
       },
       "github": {
         "linkTitle": "GitHub",
-        "url": "https://github.com/chaoskyme",
+        "url": "https://github.com/chaoskyx",
         "icon": "fa-github"
       }
     },
