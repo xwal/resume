@@ -33,7 +33,7 @@ jobs:
         echo "$GH_ACTION_DEPLOY_KEY" > ~/.ssh/id_rsa
         chmod 600 ~/.ssh/id_rsa
         ssh-keyscan github.com >> ~/.ssh/known_hosts
-        git config --global user.name 'chaosky'
+        git config --global user.name 'xwal'
         git config --global user.email 'chaosky.me@gmail.com'
         npm install -g grunt-cli
         gem install compass

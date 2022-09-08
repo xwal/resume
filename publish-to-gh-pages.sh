@@ -10,7 +10,7 @@ cd dist
 # git init
 git init
 # inside this git repo we'll pretend to be a new user
-git config user.name "chaosky"
+git config user.name "xwal"
 git config user.email "chaosky.me@gmail.com"
 
 # The first and only commit to this new Git repo contains all the
@@ -22,4 +22,4 @@ git commit -m "Deploy at `date +"%Y-%m-%d %H:%M"`"
 # repo's gh-pages branch. (All previous history on the gh-pages branch
 # will be lost, since we are overwriting it.) We redirect any output to
 # /dev/null to hide any sensitive credential data that might otherwise be exposed.
-git push --force --quiet "git@github.com:chaoskyx/resume.git" master:gh-pages
+git push --force --quiet "git@github.com:xwal/resume.git" master:gh-pages
