@@ -1,4 +1,4 @@
-MyResume [![Travis](https://travis-ci.org/chaoskyme/resume.svg)](https://travis-ci.org/chaoskyme/resume)
+MyResume [![Travis](https://travis-ci.org/xwal/resume.svg)](https://travis-ci.org/xwal/resume)
 ========
 
 <resume.chaosky.tech>

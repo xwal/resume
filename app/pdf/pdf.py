@@ -192,7 +192,7 @@ for lang in all_langs:
     pdf.set_font(title_font, '', font_size['section_title'])
     pdf.cell(1, line_height['section'] - 1, data['sections']['employment'], ln=2)
     pdf.set_font(text_font, '', font_size['text'])
-    apply_two_column(pdf, data['employment']['jobs'][:2], draw_func_employment);
+    apply_two_column(pdf, data['employment']['jobs'][:3], draw_func_employment);
     # skill section
     pdf.set_x(page_size['left'])
     pdf.set_font(title_font, '', font_size['section_title'])

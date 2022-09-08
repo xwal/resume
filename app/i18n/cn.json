@@ -12,14 +12,14 @@
     "project": "项目经历"
   },
   "badge": {
-    "githubLink": "https://github.com/chaoskyx",
+    "githubLink": "https://github.com/xwal",
     "languageImageAlt": "switch to English",
     "languageText": "English",
     "languageLink": "./en.html",
     "downloadPDFImageAlt": "下载PDF版",
     "downloadPDFText": "下载PDF版",
-    "pdfLink": "林天祥-应聘 iOS 开发工程师-6年开发.pdf",
-    "pdfName": "林天祥-应聘 iOS 开发工程师-6年开发"
+    "pdfLink": "林天祥-应聘 iOS 开发工程师-8年开发.pdf",
+    "pdfName": "林天祥-应聘 iOS 开发工程师-8年开发"
   },
   "header": {
     "name": "林天祥",
@@ -35,13 +35,13 @@
       },
       "github": {
         "linkTitle": "GitHub",
-        "url": "https://github.com/chaoskyx",
+        "url": "https://github.com/xwal",
         "icon": "fa-github"
       }
     },
     "introduction": [
       "热爱编程的 iOS 开发者，负责和参与多款 App 的开发",
-      "5年 iOS 开发经验，2年技术团队管理",
+      "7年 iOS 开发经验，2年技术团队管理",
       "良好的代码规范，注重实用和效率",
       "熟悉瀑布流式和敏捷迭代式开发",
       "丰富的自动化持续集成和持续部署经验",
@@ -80,9 +80,18 @@
   "employment": {
     "jobs": [
       {
+        "name": "独立开发",
+        "position": "资深 iOS 开发工程师",
+        "year": "2020.04 - 至今",
+        "description": [
+          "开发个人 iOS Apps",
+          "开发 Web3 DApps"
+        ]
+      },
+      {
         "name": "成都果小美网络科技有限公司",
         "position": "资深 iOS 开发工程师",
-        "year": "2017.10-2020.01",
+        "year": "2017.10 - 2020.01",
         "description": [
           "负责 iOS 团队建设、沟通和协作，指导团队开发",
           "负责 iOS 产品的技术选型、软件架构和迭代任务开发",
@@ -93,7 +102,7 @@
       {
         "name": "成都品果科技有限公司（Camera360）",
         "position": "iOS 开发工程师",
-        "year": "2017.03-2017.10",
+        "year": "2017.03 - 2017.10",
         "description": [
           "参与 Camera360 相机侧开发",
           "开发大片滤镜功能及在线测试打包工具",
@@ -104,7 +113,7 @@
       {
         "name": "北京千锋互联科技有限公司成都分公司",
         "position": "iOS 培训讲师",
-        "year": "2015.08-2017.03",
+        "year": "2015.08 - 2017.03",
         "description": [
           "从事 iOS 培训教学",
           "参与制定 Swift 培训课程体系"
@@ -113,7 +122,7 @@
       {
         "name": "成都市亿合科技有限公司",
         "position": "软件工程师（Qt && iOS）",
-        "year": "2014.04-2015.08",
+        "year": "2014.04 - 2015.08",
         "description": [
           "负责开发基于 Qt 和 XULRunner 的 ERP 软件",
           "参与开发4款(品界、亿合云商、农厨商城、克女郎)App"
@@ -180,7 +189,7 @@
         "icon": "fa-apple",
         "name": "宝贝仓",
         "job": "成都果小美网络科技有限公司",
-        "year": "2018.04-2020.01",
+        "year": "2018.04 - 2020.01",
         "library": ["RxSwift", "Moya", "URLNavigator", "PromiseKit", "Texture", "YYKit", "MonkeyKing", "SnapKit", "WCDB", "Kingfisher", "Masonry"],
         "description": [
           "宝贝仓是一款面向职业买手的购物分销 App",
@@ -203,7 +212,7 @@
         "icon": "fa-apple",
         "name": "淘呗商城",
         "job": "成都果小美网络科技有限公司",
-        "year": "2018.11-2020.01",
+        "year": "2018.11 - 2020.01",
         "library": ["RxSwift", "SwifterSwift", "URLNavigator", "CryptoSwift", "MonkeyKing", "PromiseKit", "ObjectMapper", "SnapKit", "Texture", "Alamofire", "Kingfisher", "Moya", "Flutter"],
         "description": [
           "淘呗商城是一款为批发商、分销商等买家提供在线交易，为商家提供发布商品、商品管理、直播对账、售后管理的应用",
@@ -225,7 +234,7 @@
         "icon": "fa-apple",
         "name": "拍立播",
         "job": "成都果小美网络科技有限公司",
-        "year": "2019.03-2020.01",
+        "year": "2019.03 - 2020.01",
         "library": ["RxSwift", "URLNavigator", "MonkeyKing", "Alamofire", "Moya"],
         "description": [
           "拍立播是一款辅助社交平台卖货的销售工具",
@@ -244,7 +253,7 @@
         "icon": "fa-apple",
         "name": "如来神掌",
         "job": "成都果小美网络科技有限公司",
-        "year": "2017.10-2018.04",
+        "year": "2017.10 - 2018.04",
         "library": ["RxSwift", "Weex", "Eureka", "Alamofire", "Moya", "YYKit", "SnapKit", "TagListView"],
         "description": [
           "如来神掌是一款服务于BD的货柜在线签单CRM系统 App",
@@ -257,7 +266,7 @@
         "icon": "fa-server",
         "name": "无线工具链平台",
         "job": "成都果小美网络科技有限公司",
-        "year": "2017.10-2020.01",
+        "year": "2017.10 - 2020.01",
         "library": ["GitLab", "Fastlane", "Jenkins", "Node.js/Vue", "Ruby", "Python", "Flutter"],
         "description": [
           "无线工具链平台是一套服务于无线开发、测试、产品的工具链体系",
@@ -279,7 +288,7 @@
         "icon": "fa-apple",
         "name": "Camera360",
         "job": "成都品果科技有限公司",
-        "year": "2017.03-2017.10",
+        "year": "2017.03 - 2017.10",
         "library": ["内部封装库", "ReactiveCocoa", "YYKit", "ZipArchive"],
         "description": [
           "Camera 360是一款拍照软件",
@@ -303,7 +312,7 @@
         "icon": "fa-apple",
         "name": "iOS 培训教学",
         "job": "北京千锋互联科技有限公司成都分公司",
-        "year": "2015.08-2017.03",
+        "year": "2015.08 - 2017.03",
         "library": ["CocoaPods", "SDWebImage", "Masonry"],
         "description": [
           "iOS 培训课程教学，包括编程语言（Objective-C、Swift）、UI、网络、项目阶段",
@@ -315,7 +324,7 @@
         "icon": "fa-desktop",
         "name": "337游戏盒子",
         "job": "北京智明星通科技有限公司",
-        "year": "2013.11-2014.02",
+        "year": "2013.11 - 2014.02",
         "library": ["Qt", "CEF"],
         "description": [
           "337游戏盒子是一款基于 Qt 和 CEF 技术开发的集合多款网页游戏的PC应用",
@@ -327,7 +336,7 @@
         "icon": "fa-desktop",
         "name": "音视频即时通信PC终端",
         "job": "DB&KE 实验室",
-        "year": "2012.06-2014.06",
+        "year": "2012.06 - 2014.06",
         "library": ["Qt", "Linphone"],
         "description": [
           "在大学实验室开发的一款语音视频聊天桌面应用",
@@ -343,7 +352,7 @@
             "icon": "fa-apple",
             "name": "铃声大师",
             "job": "个人作品",
-            "year": "2020.01-至今",
+            "year": "2020.01 - 至今",
             "library": ["RxSwift", "SwifterSwift", "Kingfisher", "SnapKit", "Moya", "QMUIKit", "GCDWebServer", "WCDB.swift", "Fabric", "FFmpeg"],
             "description": [
               "铃声大师是一款手机铃声制作软件",
@@ -370,7 +379,7 @@
             "icon": "fa-apple",
             "name": "世界画报",
             "job": "个人作品",
-            "year": "2016.11-至今",
+            "year": "2016.11 - 至今",
             "library": ["RxSwift", "Alamofire", "Kingfisher", "SnapKit", "DateTools", "Moya", "SwiftyJSON", "ObjectMapper"],
             "description": [
               "世界画报是一款壁纸类 App 应用，集合了世界地理杂志、最美壁纸、unsplash等数据来源的壁纸数据",
