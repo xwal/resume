@@ -18,12 +18,12 @@
     "languageLink": "./index.html",
     "downloadPDFImageAlt": "Download as PDF",
     "downloadPDFText": "Download",
-    "pdfLink": "TianxiangLin-iOS-resume.pdf",
-    "pdfName": "TianxiangLin-iOS-resume"
+    "pdfLink": "iOS Resume - Tianxiang Lin.pdf",
+    "pdfName": "iOS Resume - Tianxiang Lin"
   },
   "header": {
     "name": "Tianxiang Lin",
-    "title": "iOS Engineer",
+    "title": "iOS Software Engineer",
     "languageIcon": "cn.png"
   },
   "about": {
@@ -80,12 +80,12 @@
   "employment": {
     "jobs": [
       {
-        "name": "Independent Development",
+        "name": "Sigma Chain AG (Remote)",
         "position": "Senior iOS developer",
         "year": "2020.04 - Now",
         "description": [
           "Develop iOS Apps",
-          "Develop Web3 dapps"
+          "Develop Web3 DApps"
         ]
       },
       {

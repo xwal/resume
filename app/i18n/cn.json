@@ -23,7 +23,7 @@
   },
   "header": {
     "name": "林天祥",
-    "title": "iOS Engineer",
+    "title": "iOS 软件开发工程师",
     "languageIcon": "en.png"
   },
   "about": {
@@ -80,11 +80,11 @@
   "employment": {
     "jobs": [
       {
-        "name": "独立开发",
+        "name": "Sigma Chain AG（远程）",
         "position": "资深 iOS 开发工程师",
         "year": "2020.04 - 至今",
         "description": [
-          "开发个人 iOS Apps",
+          "开发 iOS Apps",
           "开发 Web3 DApps"
         ]
       },
