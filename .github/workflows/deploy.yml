@@ -19,19 +19,18 @@ jobs:
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: '2.x'
+        ruby-version: '2.7.8'
     - name: Setup Python
       uses: actions/setup-python@v1
       with:
-        python-version: '3.x'
-        architecture: 'x64'
+        python-version: '3.11.7'
     - name: prepare build environment
       env:
         GH_ACTION_DEPLOY_KEY: ${{secrets.GH_ACTION_DEPLOY_KEY}}
       run: |
         mkdir -p ~/.ssh/
-        echo "$GH_ACTION_DEPLOY_KEY" > ~/.ssh/id_rsa
-        chmod 600 ~/.ssh/id_rsa
+        echo "$GH_ACTION_DEPLOY_KEY" > ~/.ssh/id_ed25519
+        chmod 600 ~/.ssh/id_ed25519
         ssh-keyscan github.com >> ~/.ssh/known_hosts
         git config --global user.name 'xwal'
         git config --global user.email 'chaosky.me@gmail.com'
