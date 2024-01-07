@@ -40,12 +40,9 @@
       }
     },
     "introduction": [
-      "loveing programming, development multiple apps",
-      "7 years of iOS experience and 2 years management",
+      "A passionate iOS developer, with years of experience in development and management since 2015.",
       "Good code specification, practicality and efficiency",
-      "Familiar with waterfall flow and agile iterative development",
-      "Rich experience in CI and CD",
-      "Good at using and developing toolchain to improve efficiency"
+      "Rich experience in CI/CD, good at using and developing toolchain to improve efficiency"
     ],
     "location": "Chengdu, China",
     "phone": "(+86) 18981988677",
@@ -85,7 +82,8 @@
         "year": "2020.04 - Now",
         "description": [
           "Develop iOS Apps",
-          "Develop Web3 DApps"
+          "Develop Web3 DApps",
+          "Develop Web3 Wallet"
         ]
       },
       {

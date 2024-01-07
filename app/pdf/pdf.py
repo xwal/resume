@@ -157,18 +157,13 @@ for lang in all_langs:
     pdf.set_font(title_font, '', font_size['section_title'])
     pdf.cell(1, line_height['section'] - 1, data['sections']['about'], ln=2)
     pdf.set_font(text_font, '', font_size['text'])
-    col_1_count = len(data['about']['introduction']) / 2
+    col_1_count = len(data['about']['introduction'])
     desc_y = pdf.get_y()
     for idx, desc in enumerate(data['about']['introduction']):
-        if idx == col_1_count:
-            pdf.set_y(desc_y)
-        if idx < col_1_count:
-            pdf.set_x(page_size['left'] + page_size['section_indent'])
-        else:
-            pdf.set_x(page_size['middle_x'])
+        pdf.set_x(page_size['left'] + page_size['section_indent'])
         pdf.ellipse(pdf.get_x(), pdf.get_y() + 1.1, ellipse['size'], ellipse['size'], 'F')
         pdf.cell(ellipse['margin'])
-        pdf.cell(1, line_height['text'] - 1, desc, ln=2)
+        pdf.multi_cell(0, line_height['text'], desc, align="L")
     pdf.ln(page_size['section_margin'])
     # education section
     pdf.set_x(page_size['left'])

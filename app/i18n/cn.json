@@ -18,8 +18,8 @@
     "languageLink": "./en.html",
     "downloadPDFImageAlt": "下载PDF版",
     "downloadPDFText": "下载PDF版",
-    "pdfLink": "林天祥-应聘 iOS 开发工程师-8年开发.pdf",
-    "pdfName": "林天祥-应聘 iOS 开发工程师-8年开发"
+    "pdfLink": "林天祥-应聘 iOS 开发.pdf",
+    "pdfName": "林天祥-应聘 iOS 开发"
   },
   "header": {
     "name": "林天祥",
@@ -40,12 +40,9 @@
       }
     },
     "introduction": [
-      "热爱编程的 iOS 开发者，负责和参与多款 App 的开发",
-      "7年 iOS 开发经验，2年技术团队管理",
+      "热爱编程的 iOS 开发者，2015年起从事 iOS 开发，多年开发和管理经验",
       "良好的代码规范，注重实用和效率",
-      "熟悉瀑布流式和敏捷迭代式开发",
-      "丰富的自动化持续集成和持续部署经验",
-      "擅长使用和开发工具链，提升开发效率"
+      "丰富的自动化持续集成和持续部署经验，擅长使用和开发工具链，提升开发效率"
     ],
     "location": "四川 ● 成都",
     "phone": "(+86) 18981988677",
@@ -85,7 +82,8 @@
         "year": "2020.04 - 至今",
         "description": [
           "开发 iOS Apps",
-          "开发 Web3 DApps"
+          "开发 Web3 DApps",
+          "开发 Web3 Wallet"
         ]
       },
       {
